@@ -8,7 +8,7 @@
 import ProjectDescriptionHelpers
 import ProjectDescription
 
-private let projectName = "Home"
+private let projectName = "MyPage"
 private let iOSTargetVersion = "14.0"
 
 let infoPlist: [String: InfoPlist.Value] = [
@@ -24,4 +24,5 @@ let project = Project.frameworkWithDemoApp(name: projectName,
                                             .external(name: "SnapKit"),
                                             .external(name: "Then")
                                            ])
+
 

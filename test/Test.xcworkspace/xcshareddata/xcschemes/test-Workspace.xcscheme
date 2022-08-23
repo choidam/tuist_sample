@@ -98,6 +98,62 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6DD2D9BE112D41AA7050E221"
+               BuildableName = "MyPage.framework"
+               BlueprintName = "MyPage"
+               ReferencedContainer = "container:Projects/MyPage/MyPage.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4155C6F8066044A25C32DD93"
+               BuildableName = "MyPageDemoApp.app"
+               BlueprintName = "MyPageDemoApp"
+               ReferencedContainer = "container:Projects/MyPage/MyPage.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A5635A622DF6B3EBEBA79591"
+               BuildableName = "MyPageDemoAppTests.xctest"
+               BlueprintName = "MyPageDemoAppTests"
+               ReferencedContainer = "container:Projects/MyPage/MyPage.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "31B2BFCA7BCA0EF8AE63C984"
+               BuildableName = "MyPageTests.xctest"
+               BlueprintName = "MyPageTests"
+               ReferencedContainer = "container:Projects/MyPage/MyPage.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "8A043024BB190898066F1729"
                BuildableName = "SnapKit.framework"
                BlueprintName = "SnapKit"
@@ -154,6 +210,26 @@
                BuildableName = "HomeTests.xctest"
                BlueprintName = "HomeTests"
                ReferencedContainer = "container:Projects/Home/Home.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A5635A622DF6B3EBEBA79591"
+               BuildableName = "MyPageDemoAppTests.xctest"
+               BlueprintName = "MyPageDemoAppTests"
+               ReferencedContainer = "container:Projects/MyPage/MyPage.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "31B2BFCA7BCA0EF8AE63C984"
+               BuildableName = "MyPageTests.xctest"
+               BlueprintName = "MyPageTests"
+               ReferencedContainer = "container:Projects/MyPage/MyPage.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>

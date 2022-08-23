@@ -7,10 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17541D9BBB3EF49648EC9C0A /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45853054D615EC22DCAE768B /* SnapKit.framework */; platformFilter = ios; };
 		269DAC6E999F4D87706612D6 /* Home.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9290645AFD421A6E8E0A3C77 /* Home.framework */; platformFilter = ios; };
 		33C7D7E0FD90E0B5B90DE5B4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAFEFB4CCEB4FBFFF16CA05 /* HomeViewController.swift */; };
+		5C60EADD2EE58CDE8C6FF2C1 /* Then.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9FB11E9C0BBE6CD5E87883B /* Then.framework */; platformFilter = ios; };
 		67EE5CE5E08C72B931284D20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A4255B20829AC8EFAA56CC0 /* LaunchScreen.storyboard */; };
 		94029276C56460E16AE4456E /* Home.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9290645AFD421A6E8E0A3C77 /* Home.framework */; platformFilter = ios; };
+		9B59FF3F69C633B26064301F /* SnapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 45853054D615EC22DCAE768B /* SnapKit.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9E5E2B3F30DD9698E7DA138C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAFEFB4CCEB4FBFFF16CA05 /* HomeViewController.swift */; };
 		A3E300F5BBE00A04896CD9CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9857DDFD57AE37470690AC80 /* AppDelegate.swift */; };
 		A815A534E7BEA040621ED045 /* Home.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9290645AFD421A6E8E0A3C77 /* Home.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -54,6 +57,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				A815A534E7BEA040621ED045 /* Home.framework in Embed Frameworks */,
+				9B59FF3F69C633B26064301F /* SnapKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -96,6 +100,7 @@
 		3A4255B20829AC8EFAA56CC0 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E27707CF3AF39D07540B293 /* HomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		420FD2BF9D05BBEC40B1CDDE /* Asset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Asset.xcassets; sourceTree = "<group>"; };
+		45853054D615EC22DCAE768B /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		468E8464BF81A55EFE6DD464 /* HomeDemoApp.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = HomeDemoApp.plist; sourceTree = "<group>"; };
 		4FDDACE0E27F6C40EC248B54 /* Assets+HomeDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Assets+HomeDemoApp.swift"; sourceTree = "<group>"; };
 		71FC9F6A7008B4E96E4221F8 /* HomeDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,6 +109,7 @@
 		8A12ADDAFFEAE27230C256C7 /* HomeDemoAppTests.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = HomeDemoAppTests.plist; sourceTree = "<group>"; };
 		9290645AFD421A6E8E0A3C77 /* Home.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Home.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9857DDFD57AE37470690AC80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B9FB11E9C0BBE6CD5E87883B /* Then.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Then.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC3F84F9CB9590F8FFD68572 /* HomeDemoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeDemoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDE8EE31791B80429611F213 /* HomeTests.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = HomeTests.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -120,6 +126,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17541D9BBB3EF49648EC9C0A /* SnapKit.framework in Frameworks */,
+				5C60EADD2EE58CDE8C6FF2C1 /* Then.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +157,8 @@
 				71FC9F6A7008B4E96E4221F8 /* HomeDemoApp.app */,
 				EC3F84F9CB9590F8FFD68572 /* HomeDemoAppTests.xctest */,
 				3E27707CF3AF39D07540B293 /* HomeTests.xctest */,
+				45853054D615EC22DCAE768B /* SnapKit.framework */,
+				B9FB11E9C0BBE6CD5E87883B /* Then.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";

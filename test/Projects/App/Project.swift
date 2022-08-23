@@ -20,5 +20,6 @@ let project = Project.app(name: projectName,
                           dependencies: [
                             .external(name: "SnapKit"),
                             .external(name: "Then"),
-                            .project(target: "Home", path: .relativeToCurrentFile("../Home"))
+                            .project(target: "Home", path: .relativeToCurrentFile("../Home")),
+                            .project(target: "MyPage", path: "../MyPage")
                           ])

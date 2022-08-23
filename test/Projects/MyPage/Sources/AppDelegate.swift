@@ -1,14 +1,12 @@
 //
 //  AppDelegate.swift
-//  App
+//  MyPage
 //
 //  Created by choidam on 2022/08/23.
-//  Copyright © 2022 cocaine.io. All rights reserved.
+//  Copyright © 2022 team.io. All rights reserved.
 //
 
 import UIKit
-import Home
-import MyPage
 import SnapKit
 import Then
 
@@ -21,11 +19,10 @@ import Then
         didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil
     ) -> Bool {
         window = UIWindow(frame: UIScreen.main.bounds)
-        let viewController = MainViewController()
+        let viewController = MyPageViewController()
         window?.rootViewController = viewController
         window?.makeKeyAndVisible()
         return true
     }
-    
 }
 

@@ -1,8 +1,8 @@
 {
   "externalProjects" : [
-    "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Then",
+    "\/Users\/choidam\/Downloads\/tuist_sample\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Then",
     {
-      "sourceRootPath" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Then",
+      "sourceRootPath" : "\/Users\/choidam\/Downloads\/tuist_sample\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Then",
       "options" : {
         "automaticSchemesOptions" : {
           "disabled" : {
@@ -60,9 +60,9 @@
                   "_0" : "NO"
                 }
               },
-              "ENABLE_STRICT_OBJC_MSGSEND" : {
+              "ALWAYS_SEARCH_USER_PATHS" : {
                 "string" : {
-                  "_0" : "NO"
+                  "_0" : "YES"
                 }
               },
               "FRAMEWORK_SEARCH_PATHS" : {
@@ -73,7 +73,7 @@
                   ]
                 }
               },
-              "ALWAYS_SEARCH_USER_PATHS" : {
+              "GCC_WARN_INHIBIT_ALL_WARNINGS" : {
                 "string" : {
                   "_0" : "YES"
                 }
@@ -88,9 +88,9 @@
                   "_0" : "NO"
                 }
               },
-              "GCC_WARN_INHIBIT_ALL_WARNINGS" : {
+              "ENABLE_STRICT_OBJC_MSGSEND" : {
                 "string" : {
-                  "_0" : "YES"
+                  "_0" : "NO"
                 }
               },
               "SWIFT_SUPPRESS_WARNINGS" : {
@@ -149,7 +149,7 @@
           },
           "sources" : [
             {
-              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Then\/Sources\/Then\/Then.swift"
+              "path" : "\/Users\/choidam\/Downloads\/tuist_sample\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Then\/Sources\/Then\/Then.swift"
             }
           ],
           "resources" : [
@@ -209,7 +209,7 @@
           }
         }
       },
-      "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Then",
+      "path" : "\/Users\/choidam\/Downloads\/tuist_sample\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Then",
       "isExternal" : true,
       "filesGroup" : {
         "group" : {
@@ -219,7 +219,7 @@
       "packages" : [
 
       ],
-      "xcodeProjPath" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Then\/Then.xcodeproj",
+      "xcodeProjPath" : "\/Users\/choidam\/Downloads\/tuist_sample\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Then\/Then.xcodeproj",
       "resourceSynthesizers" : [
 
       ],
@@ -229,9 +229,9 @@
       ],
       "name" : "Then"
     },
-    "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit",
+    "\/Users\/choidam\/Downloads\/tuist_sample\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit",
     {
-      "sourceRootPath" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit",
+      "sourceRootPath" : "\/Users\/choidam\/Downloads\/tuist_sample\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit",
       "options" : {
         "automaticSchemesOptions" : {
           "disabled" : {
@@ -276,9 +276,12 @@
           "name" : "SnapKit",
           "settings" : {
             "base" : {
-              "ALWAYS_SEARCH_USER_PATHS" : {
-                "string" : {
-                  "_0" : "YES"
+              "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "SWIFT_PACKAGE"
+                  ]
                 }
               },
               "CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER" : {
@@ -294,11 +297,6 @@
                   ]
                 }
               },
-              "GCC_WARN_INHIBIT_ALL_WARNINGS" : {
-                "string" : {
-                  "_0" : "YES"
-                }
-              },
               "FRAMEWORK_SEARCH_PATHS" : {
                 "array" : {
                   "_0" : [
@@ -307,9 +305,9 @@
                   ]
                 }
               },
-              "GCC_NO_COMMON_BLOCKS" : {
+              "GCC_WARN_INHIBIT_ALL_WARNINGS" : {
                 "string" : {
-                  "_0" : "NO"
+                  "_0" : "YES"
                 }
               },
               "USE_HEADERMAP" : {
@@ -317,12 +315,14 @@
                   "_0" : "NO"
                 }
               },
-              "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : {
-                "array" : {
-                  "_0" : [
-                    "$(inherited)",
-                    "SWIFT_PACKAGE"
-                  ]
+              "ALWAYS_SEARCH_USER_PATHS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "GCC_NO_COMMON_BLOCKS" : {
+                "string" : {
+                  "_0" : "NO"
                 }
               },
               "SWIFT_SUPPRESS_WARNINGS" : {
@@ -378,115 +378,115 @@
           },
           "sources" : [
             {
-              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintAttributes.swift"
+              "path" : "\/Users\/choidam\/Downloads\/tuist_sample\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintMakerRelatable+Extensions.swift"
             },
             {
-              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintConstantTarget.swift"
+              "path" : "\/Users\/choidam\/Downloads\/tuist_sample\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/LayoutConstraintItem.swift"
             },
             {
-              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintPriorityTarget.swift"
+              "path" : "\/Users\/choidam\/Downloads\/tuist_sample\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintDirectionalInsetTarget.swift"
             },
             {
-              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/Constraint.swift"
+              "path" : "\/Users\/choidam\/Downloads\/tuist_sample\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintMakerFinalizable.swift"
             },
             {
-              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintDirectionalInsetTarget.swift"
+              "path" : "\/Users\/choidam\/Downloads\/tuist_sample\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintConfig.swift"
             },
             {
-              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintDirectionalInsets.swift"
+              "path" : "\/Users\/choidam\/Downloads\/tuist_sample\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintLayoutGuide.swift"
             },
             {
-              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintRelatableTarget.swift"
+              "path" : "\/Users\/choidam\/Downloads\/tuist_sample\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintLayoutSupportDSL.swift"
             },
             {
-              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintLayoutSupportDSL.swift"
+              "path" : "\/Users\/choidam\/Downloads\/tuist_sample\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintMaker.swift"
             },
             {
-              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintConfig.swift"
+              "path" : "\/Users\/choidam\/Downloads\/tuist_sample\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintPriority.swift"
             },
             {
-              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintMakerEditable.swift"
+              "path" : "\/Users\/choidam\/Downloads\/tuist_sample\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintLayoutGuide+Extensions.swift"
             },
             {
-              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintLayoutGuide.swift"
+              "path" : "\/Users\/choidam\/Downloads\/tuist_sample\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintDescription.swift"
             },
             {
-              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintDSL.swift"
+              "path" : "\/Users\/choidam\/Downloads\/tuist_sample\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintInsetTarget.swift"
             },
             {
-              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/LayoutConstraintItem.swift"
+              "path" : "\/Users\/choidam\/Downloads\/tuist_sample\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintDirectionalInsets.swift"
             },
             {
-              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintMultiplierTarget.swift"
+              "path" : "\/Users\/choidam\/Downloads\/tuist_sample\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintDSL.swift"
             },
             {
-              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintViewDSL.swift"
+              "path" : "\/Users\/choidam\/Downloads\/tuist_sample\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/LayoutConstraint.swift"
             },
             {
-              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintMakerRelatable.swift"
+              "path" : "\/Users\/choidam\/Downloads\/tuist_sample\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/UILayoutSupport+Extensions.swift"
             },
             {
-              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintRelation.swift"
+              "path" : "\/Users\/choidam\/Downloads\/tuist_sample\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintViewDSL.swift"
             },
             {
-              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintLayoutGuideDSL.swift"
+              "path" : "\/Users\/choidam\/Downloads\/tuist_sample\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintView.swift"
             },
             {
-              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintView.swift"
+              "path" : "\/Users\/choidam\/Downloads\/tuist_sample\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintInsets.swift"
             },
             {
-              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintPriority.swift"
+              "path" : "\/Users\/choidam\/Downloads\/tuist_sample\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintMultiplierTarget.swift"
             },
             {
-              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintMakerExtendable.swift"
+              "path" : "\/Users\/choidam\/Downloads\/tuist_sample\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintOffsetTarget.swift"
             },
             {
-              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintMaker.swift"
+              "path" : "\/Users\/choidam\/Downloads\/tuist_sample\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintRelatableTarget.swift"
             },
             {
-              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/Debugging.swift"
+              "path" : "\/Users\/choidam\/Downloads\/tuist_sample\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintLayoutGuideDSL.swift"
             },
             {
-              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintInsets.swift"
+              "path" : "\/Users\/choidam\/Downloads\/tuist_sample\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintConstantTarget.swift"
             },
             {
-              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/LayoutConstraint.swift"
+              "path" : "\/Users\/choidam\/Downloads\/tuist_sample\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintMakerExtendable.swift"
             },
             {
-              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/Typealiases.swift"
+              "path" : "\/Users\/choidam\/Downloads\/tuist_sample\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintPriorityTarget.swift"
             },
             {
-              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintInsetTarget.swift"
+              "path" : "\/Users\/choidam\/Downloads\/tuist_sample\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/Constraint.swift"
             },
             {
-              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintLayoutGuide+Extensions.swift"
+              "path" : "\/Users\/choidam\/Downloads\/tuist_sample\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintItem.swift"
             },
             {
-              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/UILayoutSupport+Extensions.swift"
+              "path" : "\/Users\/choidam\/Downloads\/tuist_sample\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/Typealiases.swift"
             },
             {
-              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintLayoutSupport.swift"
+              "path" : "\/Users\/choidam\/Downloads\/tuist_sample\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintRelation.swift"
             },
             {
-              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintMakerFinalizable.swift"
+              "path" : "\/Users\/choidam\/Downloads\/tuist_sample\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintLayoutSupport.swift"
             },
             {
-              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintItem.swift"
+              "path" : "\/Users\/choidam\/Downloads\/tuist_sample\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/Debugging.swift"
             },
             {
-              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintView+Extensions.swift"
+              "path" : "\/Users\/choidam\/Downloads\/tuist_sample\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintView+Extensions.swift"
             },
             {
-              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintDescription.swift"
+              "path" : "\/Users\/choidam\/Downloads\/tuist_sample\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintAttributes.swift"
             },
             {
-              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintMakerRelatable+Extensions.swift"
+              "path" : "\/Users\/choidam\/Downloads\/tuist_sample\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintMakerPrioritizable.swift"
             },
             {
-              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintOffsetTarget.swift"
+              "path" : "\/Users\/choidam\/Downloads\/tuist_sample\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintMakerRelatable.swift"
             },
             {
-              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintMakerPrioritizable.swift"
+              "path" : "\/Users\/choidam\/Downloads\/tuist_sample\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintMakerEditable.swift"
             }
           ],
           "resources" : [
@@ -524,8 +524,8 @@
         },
         "configurations" : [
           {
-            "name" : "Debug",
-            "variant" : "debug"
+            "name" : "Release",
+            "variant" : "release"
           },
           {
             "settings" : {
@@ -533,8 +533,8 @@
             }
           },
           {
-            "name" : "Release",
-            "variant" : "release"
+            "name" : "Debug",
+            "variant" : "debug"
           },
           {
             "settings" : {
@@ -550,7 +550,7 @@
           }
         }
       },
-      "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit",
+      "path" : "\/Users\/choidam\/Downloads\/tuist_sample\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit",
       "isExternal" : true,
       "filesGroup" : {
         "group" : {
@@ -560,7 +560,7 @@
       "packages" : [
 
       ],
-      "xcodeProjPath" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/SnapKit.xcodeproj",
+      "xcodeProjPath" : "\/Users\/choidam\/Downloads\/tuist_sample\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/SnapKit.xcodeproj",
       "resourceSynthesizers" : [
 
       ],
@@ -576,7 +576,7 @@
       {
         "project" : {
           "target" : "SnapKit",
-          "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit"
+          "path" : "\/Users\/choidam\/Downloads\/tuist_sample\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit"
         }
       }
     ],
@@ -584,7 +584,7 @@
       {
         "project" : {
           "target" : "Then",
-          "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Then"
+          "path" : "\/Users\/choidam\/Downloads\/tuist_sample\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Then"
         }
       }
     ],
@@ -592,7 +592,7 @@
       {
         "project" : {
           "target" : "SnapKit",
-          "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit"
+          "path" : "\/Users\/choidam\/Downloads\/tuist_sample\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit"
         }
       }
     ]
