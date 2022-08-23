@@ -1,0 +1,600 @@
+{
+  "externalProjects" : [
+    "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Then",
+    {
+      "sourceRootPath" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Then",
+      "options" : {
+        "automaticSchemesOptions" : {
+          "disabled" : {
+
+          }
+        },
+        "disableShowEnvironmentVarsInScriptPhases" : false,
+        "disableBundleAccessors" : false,
+        "disableSynthesizedResourceAccessors" : false,
+        "textSettings" : {
+
+        }
+      },
+      "additionalFiles" : [
+
+      ],
+      "targets" : [
+        {
+          "scripts" : [
+
+          ],
+          "deploymentTarget" : {
+            "iOS" : {
+              "_0" : "9.0",
+              "_1" : 3
+            }
+          },
+          "prune" : false,
+          "bundleId" : "Then",
+          "copyFiles" : [
+
+          ],
+          "launchArguments" : [
+
+          ],
+          "dependencies" : [
+
+          ],
+          "additionalFiles" : [
+
+          ],
+          "name" : "Then",
+          "settings" : {
+            "base" : {
+              "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "SWIFT_PACKAGE"
+                  ]
+                }
+              },
+              "CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "ENABLE_STRICT_OBJC_MSGSEND" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "FRAMEWORK_SEARCH_PATHS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "$(PLATFORM_DIR)\/Developer\/Library\/Frameworks"
+                  ]
+                }
+              },
+              "ALWAYS_SEARCH_USER_PATHS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "GCC_NO_COMMON_BLOCKS" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "USE_HEADERMAP" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "GCC_WARN_INHIBIT_ALL_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "SWIFT_SUPPRESS_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "CLANG_ENABLE_OBJC_WEAK" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "GCC_PREPROCESSOR_DEFINITIONS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "SWIFT_PACKAGE=1"
+                  ]
+                }
+              }
+            },
+            "configurations" : [
+              {
+                "name" : "Release",
+                "variant" : "release"
+              },
+              {
+                "settings" : {
+
+                }
+              },
+              {
+                "name" : "Debug",
+                "variant" : "debug"
+              },
+              {
+                "settings" : {
+
+                }
+              }
+            ],
+            "defaultSettings" : {
+              "recommended" : {
+                "excluding" : [
+
+                ]
+              }
+            }
+          },
+          "coreDataModels" : [
+
+          ],
+          "platform" : "ios",
+          "environment" : {
+
+          },
+          "sources" : [
+            {
+              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Then\/Sources\/Then\/Then.swift"
+            }
+          ],
+          "resources" : [
+
+          ],
+          "product" : "staticFramework",
+          "playgrounds" : [
+
+          ],
+          "productName" : "Then",
+          "filesGroup" : {
+            "group" : {
+              "name" : "Project"
+            }
+          },
+          "rawScriptBuildPhases" : [
+
+          ],
+          "infoPlist" : {
+            "extendingDefault" : {
+              "with" : {
+
+              }
+            }
+          }
+        }
+      ],
+      "settings" : {
+        "base" : {
+
+        },
+        "configurations" : [
+          {
+            "name" : "Debug",
+            "variant" : "debug"
+          },
+          {
+            "settings" : {
+
+            }
+          },
+          {
+            "name" : "Release",
+            "variant" : "release"
+          },
+          {
+            "settings" : {
+
+            }
+          }
+        ],
+        "defaultSettings" : {
+          "recommended" : {
+            "excluding" : [
+
+            ]
+          }
+        }
+      },
+      "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Then",
+      "isExternal" : true,
+      "filesGroup" : {
+        "group" : {
+          "name" : "Project"
+        }
+      },
+      "packages" : [
+
+      ],
+      "xcodeProjPath" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Then\/Then.xcodeproj",
+      "resourceSynthesizers" : [
+
+      ],
+      "lastUpgradeCheck" : "99.9.9",
+      "schemes" : [
+
+      ],
+      "name" : "Then"
+    },
+    "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit",
+    {
+      "sourceRootPath" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit",
+      "options" : {
+        "automaticSchemesOptions" : {
+          "disabled" : {
+
+          }
+        },
+        "disableShowEnvironmentVarsInScriptPhases" : false,
+        "disableBundleAccessors" : false,
+        "disableSynthesizedResourceAccessors" : false,
+        "textSettings" : {
+
+        }
+      },
+      "additionalFiles" : [
+
+      ],
+      "targets" : [
+        {
+          "scripts" : [
+
+          ],
+          "deploymentTarget" : {
+            "iOS" : {
+              "_0" : "10.0",
+              "_1" : 3
+            }
+          },
+          "prune" : false,
+          "bundleId" : "SnapKit",
+          "copyFiles" : [
+
+          ],
+          "launchArguments" : [
+
+          ],
+          "dependencies" : [
+
+          ],
+          "additionalFiles" : [
+
+          ],
+          "name" : "SnapKit",
+          "settings" : {
+            "base" : {
+              "ALWAYS_SEARCH_USER_PATHS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "GCC_PREPROCESSOR_DEFINITIONS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "SWIFT_PACKAGE=1"
+                  ]
+                }
+              },
+              "GCC_WARN_INHIBIT_ALL_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "FRAMEWORK_SEARCH_PATHS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "$(PLATFORM_DIR)\/Developer\/Library\/Frameworks"
+                  ]
+                }
+              },
+              "GCC_NO_COMMON_BLOCKS" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "USE_HEADERMAP" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "SWIFT_PACKAGE"
+                  ]
+                }
+              },
+              "SWIFT_SUPPRESS_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "CLANG_ENABLE_OBJC_WEAK" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "ENABLE_STRICT_OBJC_MSGSEND" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              }
+            },
+            "configurations" : [
+              {
+                "name" : "Debug",
+                "variant" : "debug"
+              },
+              {
+                "settings" : {
+
+                }
+              },
+              {
+                "name" : "Release",
+                "variant" : "release"
+              },
+              {
+                "settings" : {
+
+                }
+              }
+            ],
+            "defaultSettings" : {
+              "recommended" : {
+                "excluding" : [
+
+                ]
+              }
+            }
+          },
+          "coreDataModels" : [
+
+          ],
+          "platform" : "ios",
+          "environment" : {
+
+          },
+          "sources" : [
+            {
+              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintAttributes.swift"
+            },
+            {
+              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintConstantTarget.swift"
+            },
+            {
+              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintPriorityTarget.swift"
+            },
+            {
+              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/Constraint.swift"
+            },
+            {
+              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintDirectionalInsetTarget.swift"
+            },
+            {
+              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintDirectionalInsets.swift"
+            },
+            {
+              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintRelatableTarget.swift"
+            },
+            {
+              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintLayoutSupportDSL.swift"
+            },
+            {
+              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintConfig.swift"
+            },
+            {
+              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintMakerEditable.swift"
+            },
+            {
+              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintLayoutGuide.swift"
+            },
+            {
+              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintDSL.swift"
+            },
+            {
+              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/LayoutConstraintItem.swift"
+            },
+            {
+              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintMultiplierTarget.swift"
+            },
+            {
+              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintViewDSL.swift"
+            },
+            {
+              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintMakerRelatable.swift"
+            },
+            {
+              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintRelation.swift"
+            },
+            {
+              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintLayoutGuideDSL.swift"
+            },
+            {
+              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintView.swift"
+            },
+            {
+              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintPriority.swift"
+            },
+            {
+              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintMakerExtendable.swift"
+            },
+            {
+              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintMaker.swift"
+            },
+            {
+              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/Debugging.swift"
+            },
+            {
+              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintInsets.swift"
+            },
+            {
+              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/LayoutConstraint.swift"
+            },
+            {
+              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/Typealiases.swift"
+            },
+            {
+              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintInsetTarget.swift"
+            },
+            {
+              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintLayoutGuide+Extensions.swift"
+            },
+            {
+              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/UILayoutSupport+Extensions.swift"
+            },
+            {
+              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintLayoutSupport.swift"
+            },
+            {
+              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintMakerFinalizable.swift"
+            },
+            {
+              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintItem.swift"
+            },
+            {
+              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintView+Extensions.swift"
+            },
+            {
+              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintDescription.swift"
+            },
+            {
+              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintMakerRelatable+Extensions.swift"
+            },
+            {
+              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintOffsetTarget.swift"
+            },
+            {
+              "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintMakerPrioritizable.swift"
+            }
+          ],
+          "resources" : [
+
+          ],
+          "product" : "framework",
+          "playgrounds" : [
+
+          ],
+          "productName" : "SnapKit",
+          "filesGroup" : {
+            "group" : {
+              "name" : "Project"
+            }
+          },
+          "rawScriptBuildPhases" : [
+
+          ],
+          "infoPlist" : {
+            "extendingDefault" : {
+              "with" : {
+
+              }
+            }
+          }
+        }
+      ],
+      "settings" : {
+        "base" : {
+          "SWIFT_VERSION" : {
+            "string" : {
+              "_0" : "5.0.0"
+            }
+          }
+        },
+        "configurations" : [
+          {
+            "name" : "Debug",
+            "variant" : "debug"
+          },
+          {
+            "settings" : {
+
+            }
+          },
+          {
+            "name" : "Release",
+            "variant" : "release"
+          },
+          {
+            "settings" : {
+
+            }
+          }
+        ],
+        "defaultSettings" : {
+          "recommended" : {
+            "excluding" : [
+
+            ]
+          }
+        }
+      },
+      "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit",
+      "isExternal" : true,
+      "filesGroup" : {
+        "group" : {
+          "name" : "Project"
+        }
+      },
+      "packages" : [
+
+      ],
+      "xcodeProjPath" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/SnapKit.xcodeproj",
+      "resourceSynthesizers" : [
+
+      ],
+      "lastUpgradeCheck" : "99.9.9",
+      "schemes" : [
+
+      ],
+      "name" : "SnapKit"
+    }
+  ],
+  "externalDependencies" : {
+    "SnapKit" : [
+      {
+        "project" : {
+          "target" : "SnapKit",
+          "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit"
+        }
+      }
+    ],
+    "Then" : [
+      {
+        "project" : {
+          "target" : "Then",
+          "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Then"
+        }
+      }
+    ],
+    "SnapKit-Dynamic" : [
+      {
+        "project" : {
+          "target" : "SnapKit",
+          "path" : "\/Users\/choidam\/Downloads\/test\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit"
+        }
+      }
+    ]
+  }
+}
