@@ -42,6 +42,34 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CFD7DEB690E20277121FAD5C"
+               BuildableName = "CommonUI.framework"
+               BlueprintName = "CommonUI"
+               ReferencedContainer = "container:Projects/CommonUI/CommonUI.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "EDAB8291F2D457496E91E9DD"
+               BuildableName = "CommonUITests.xctest"
+               BlueprintName = "CommonUITests"
+               ReferencedContainer = "container:Projects/CommonUI/CommonUI.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "52E844066D197E3B81FA748F"
                BuildableName = "Home.framework"
                BlueprintName = "Home"
@@ -190,6 +218,16 @@
                BuildableName = "AppTests.xctest"
                BlueprintName = "AppTests"
                ReferencedContainer = "container:Projects/App/App.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "EDAB8291F2D457496E91E9DD"
+               BuildableName = "CommonUITests.xctest"
+               BlueprintName = "CommonUITests"
+               ReferencedContainer = "container:Projects/CommonUI/CommonUI.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference

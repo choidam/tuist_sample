@@ -10,6 +10,7 @@
 		17541D9BBB3EF49648EC9C0A /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45853054D615EC22DCAE768B /* SnapKit.framework */; platformFilter = ios; };
 		269DAC6E999F4D87706612D6 /* Home.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9290645AFD421A6E8E0A3C77 /* Home.framework */; platformFilter = ios; };
 		33C7D7E0FD90E0B5B90DE5B4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAFEFB4CCEB4FBFFF16CA05 /* HomeViewController.swift */; };
+		39A2A4D7BE7C82D7892D0137 /* CommonUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 038A45AFD430A8988F107203 /* CommonUI.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5C60EADD2EE58CDE8C6FF2C1 /* Then.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9FB11E9C0BBE6CD5E87883B /* Then.framework */; platformFilter = ios; };
 		67EE5CE5E08C72B931284D20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A4255B20829AC8EFAA56CC0 /* LaunchScreen.storyboard */; };
 		94029276C56460E16AE4456E /* Home.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9290645AFD421A6E8E0A3C77 /* Home.framework */; platformFilter = ios; };
@@ -21,6 +22,7 @@
 		B753BE6ACD1C998CED5131B2 /* AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1864574ECD2ACFB8DF4D00EC /* AppTests.swift */; };
 		B7C01240D5125465C3F139EB /* Asset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 420FD2BF9D05BBEC40B1CDDE /* Asset.xcassets */; };
 		CEA111126170BDAFF89576D1 /* Assets+HomeDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDDACE0E27F6C40EC248B54 /* Assets+HomeDemoApp.swift */; };
+		D4A49C22EC46A6289670A9BA /* CommonUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 038A45AFD430A8988F107203 /* CommonUI.framework */; platformFilter = ios; };
 		EBDF1BBC02B858C73C50E8BA /* AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1864574ECD2ACFB8DF4D00EC /* AppTests.swift */; };
 		F58777796E3F19C07E84AE1F /* Bundle+HomeDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06225A691EAE6B53D3D8D88C /* Bundle+HomeDemoApp.swift */; };
 /* End PBXBuildFile section */
@@ -56,6 +58,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				39A2A4D7BE7C82D7892D0137 /* CommonUI.framework in Embed Frameworks */,
 				A815A534E7BEA040621ED045 /* Home.framework in Embed Frameworks */,
 				9B59FF3F69C633B26064301F /* SnapKit.framework in Embed Frameworks */,
 			);
@@ -95,6 +98,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		038A45AFD430A8988F107203 /* CommonUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		06225A691EAE6B53D3D8D88C /* Bundle+HomeDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+HomeDemoApp.swift"; sourceTree = "<group>"; };
 		1864574ECD2ACFB8DF4D00EC /* AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTests.swift; sourceTree = "<group>"; };
 		3A4255B20829AC8EFAA56CC0 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -126,6 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4A49C22EC46A6289670A9BA /* CommonUI.framework in Frameworks */,
 				17541D9BBB3EF49648EC9C0A /* SnapKit.framework in Frameworks */,
 				5C60EADD2EE58CDE8C6FF2C1 /* Then.framework in Frameworks */,
 			);
@@ -153,6 +158,7 @@
 		156072FA40260C0FBAAE35F3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				038A45AFD430A8988F107203 /* CommonUI.framework */,
 				9290645AFD421A6E8E0A3C77 /* Home.framework */,
 				71FC9F6A7008B4E96E4221F8 /* HomeDemoApp.app */,
 				EC3F84F9CB9590F8FFD68572 /* HomeDemoAppTests.xctest */,
@@ -517,7 +523,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.cocaine.Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = team.io.Tests;
 				PRODUCT_NAME = HomeDemoAppTests;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -598,7 +604,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.cocaine.Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = team.io.Tests;
 				PRODUCT_NAME = HomeDemoAppTests;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;

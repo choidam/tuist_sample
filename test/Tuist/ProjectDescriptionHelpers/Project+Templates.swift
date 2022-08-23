@@ -99,7 +99,7 @@ private extension Project {
             name: "\(name)Tests",
             platform: platform,
             product: .unitTests,
-            bundleId: "io.cocaine.Tests",
+            bundleId: "team.io.Tests",
             infoPlist: .default,
             sources: ["Tests/**"],
             dependencies: [
