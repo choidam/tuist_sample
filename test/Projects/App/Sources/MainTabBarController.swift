@@ -1,5 +1,5 @@
 //
-//  MainViewController.swift
+//  MainTabBarController.swift
 //  App
 //
 //  Created by choidam on 2022/08/23.
@@ -8,10 +8,10 @@
 
 import UIKit
 
-open class MainViewController: UIViewController {
-    open override func viewDidLoad() {
+final class MainTabBarController: UITabBarController {
+    override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = .systemGreen
+        view.backgroundColor = .white
     }
 }

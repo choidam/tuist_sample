@@ -7,12 +7,32 @@
 //
 
 import UIKit
+import SnapKit
+import Then
 
 open class MyPageViewController: UIViewController {
+    
+    // MARK: UI
+    
+    private let titleLabel = UILabel().then {
+        $0.text = "MyPage VC"
+    }
+    
     open override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = .systemGray
+        initLayout()
     }
 }
 
+extension MyPageViewController {
+    private func initLayout(){
+        view.backgroundColor = .systemGreen
+        view.addSubview(titleLabel)
+        
+        titleLabel.snp.makeConstraints {
+            $0.centerX.equalToSuperview()
+            $0.centerY.equalToSuperview()
+        }
+    }
+}

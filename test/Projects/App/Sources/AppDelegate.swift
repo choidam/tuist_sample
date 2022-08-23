@@ -9,8 +9,6 @@
 import UIKit
 import Home
 import MyPage
-import SnapKit
-import Then
 
 @main class AppDelegate: UIResponder, UIApplicationDelegate {
     
@@ -21,9 +19,22 @@ import Then
         didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil
     ) -> Bool {
         window = UIWindow(frame: UIScreen.main.bounds)
-        let viewController = MainViewController()
-        window?.rootViewController = viewController
+        
+        let tabBarController = MainTabBarController()
+        tabBarController.tabBar.tintColor = .systemBlue
+        tabBarController.tabBar.isTranslucent = false
+        
+        let homeVC = HomeViewController()
+        homeVC.tabBarItem = UITabBarItem(title: "Home", image: UIImage(systemName: "square.and.arrow.up"), tag: 0)
+        
+        let mypageVC = MyPageViewController()
+        mypageVC.tabBarItem = UITabBarItem(title: "Mypage", image: UIImage(systemName: "heart.fill"), tag: 1)
+        
+        tabBarController.setViewControllers([homeVC, mypageVC], animated: false)
+        
+        window?.rootViewController = tabBarController
         window?.makeKeyAndVisible()
+        
         return true
     }
     
