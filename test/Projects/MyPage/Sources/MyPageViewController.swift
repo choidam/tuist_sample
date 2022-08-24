@@ -28,7 +28,8 @@ open class MyPageViewController: UIViewController {
 
 extension MyPageViewController {
     private func initLayout(){
-        view.backgroundColor = .systemGreen
+        view.backgroundColor = CommonUIAsset.commonGreen.color
+        
         view.addSubview(titleLabel)
         
         titleLabel.snp.makeConstraints {

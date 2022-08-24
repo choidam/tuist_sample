@@ -16,14 +16,18 @@
 		5522B322E9E77E3EF7711ECC /* MyPage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 593BC506F70D9100B69F8D7A /* MyPage.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		66EB1E10EC8EACDC1D9628F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 543B7EC407229C13C1DEAFF4 /* LaunchScreen.storyboard */; };
 		695ECDD47D32DA119B3562FD /* Assets+MyPageDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0A57BDE6A0CAFBB7306656 /* Assets+MyPageDemoApp.swift */; };
+		789C882F71896B32F1FC6FAE /* Asset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA0F18C919141AC5B3C7B89B /* Asset.xcassets */; };
 		7AAB5BC297268248BCE6D60C /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B896C849D3C9B09A4DA8DA3 /* MyPageViewController.swift */; };
 		7FEB498B65D6C0B16170E318 /* AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362A6F4C9629B2716D7A8897 /* AppTests.swift */; };
+		84FAF5567A7F05FEA28BB266 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 543B7EC407229C13C1DEAFF4 /* LaunchScreen.storyboard */; };
+		A2B4386E44E3F0230E25C263 /* Bundle+MyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EAA15306FB979E92C0AFE7 /* Bundle+MyPage.swift */; };
 		A56BB697C6D6A24981CB13FA /* Asset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA0F18C919141AC5B3C7B89B /* Asset.xcassets */; };
 		B5B8BB773CB5DD8793A02B9F /* Then.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2250E7E4991D615622146F7 /* Then.framework */; platformFilter = ios; };
 		B62099510F3B1CDFB4F01E1C /* MyPage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 593BC506F70D9100B69F8D7A /* MyPage.framework */; platformFilter = ios; };
 		C84E1067099CEB0415B956AC /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 952C77C0D77B9A5A1F4AC653 /* SnapKit.framework */; platformFilter = ios; };
 		C97E253099D2D9C3E37CF952 /* Bundle+MyPageDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D1E35D4A2A6A2125E01815 /* Bundle+MyPageDemoApp.swift */; };
 		CE62FD63351F77276ECA6751 /* CommonUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4C9D2130E70338E16F60DA /* CommonUI.framework */; platformFilter = ios; };
+		DBFBBF43A2C176FC02A81063 /* Assets+MyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CD9BED747E96AB233E0605 /* Assets+MyPage.swift */; };
 		FDF2CF1890F36EEE391AA8E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B7F839753BC6A2E0BF2F97 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
@@ -103,6 +107,7 @@
 		17412FF769197BE5AA09DBFB /* MyPageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyPageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B896C849D3C9B09A4DA8DA3 /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
 		2C0A57BDE6A0CAFBB7306656 /* Assets+MyPageDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Assets+MyPageDemoApp.swift"; sourceTree = "<group>"; };
+		30EAA15306FB979E92C0AFE7 /* Bundle+MyPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+MyPage.swift"; sourceTree = "<group>"; };
 		362A6F4C9629B2716D7A8897 /* AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTests.swift; sourceTree = "<group>"; };
 		3BE776627C9A4E3E6049B4F1 /* MyPageDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPageDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		543B7EC407229C13C1DEAFF4 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -111,6 +116,7 @@
 		952C77C0D77B9A5A1F4AC653 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B628553BBEC8677F9486D2F2 /* MyPageTests.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = MyPageTests.plist; sourceTree = "<group>"; };
 		B9D1E35D4A2A6A2125E01815 /* Bundle+MyPageDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+MyPageDemoApp.swift"; sourceTree = "<group>"; };
+		C0CD9BED747E96AB233E0605 /* Assets+MyPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Assets+MyPage.swift"; sourceTree = "<group>"; };
 		CA0F18C919141AC5B3C7B89B /* Asset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Asset.xcassets; sourceTree = "<group>"; };
 		CA50F6C5EE0CB8E0154BA420 /* MyPageDemoAppTests.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = MyPageDemoAppTests.plist; sourceTree = "<group>"; };
 		CD4C9D2130E70338E16F60DA /* CommonUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -226,7 +232,9 @@
 		9A811DC52104B55EC9FF0A79 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				C0CD9BED747E96AB233E0605 /* Assets+MyPage.swift */,
 				2C0A57BDE6A0CAFBB7306656 /* Assets+MyPageDemoApp.swift */,
+				30EAA15306FB979E92C0AFE7 /* Bundle+MyPage.swift */,
 				B9D1E35D4A2A6A2125E01815 /* Bundle+MyPageDemoApp.swift */,
 			);
 			path = Sources;
@@ -375,6 +383,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				789C882F71896B32F1FC6FAE /* Asset.xcassets in Resources */,
+				84FAF5567A7F05FEA28BB266 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +430,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBFBBF43A2C176FC02A81063 /* Assets+MyPage.swift in Sources */,
+				A2B4386E44E3F0230E25C263 /* Bundle+MyPage.swift in Sources */,
 				FDF2CF1890F36EEE391AA8E5 /* AppDelegate.swift in Sources */,
 				7AAB5BC297268248BCE6D60C /* MyPageViewController.swift in Sources */,
 			);

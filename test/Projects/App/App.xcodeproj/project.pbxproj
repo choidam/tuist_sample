@@ -14,6 +14,8 @@
 		271C210373DDD22D96EA78C6 /* Asset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7BB1C35E2A629DADB8BE53E /* Asset.xcassets */; };
 		27D87391BEF3F66AC530577C /* Plists+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A62A7AE9D996559447AF4F /* Plists+App.swift */; };
 		2C625E388FE9330832B1D2FC /* Then.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7703DB5539953F38792597A5 /* Then.framework */; platformFilter = ios; };
+		2F654AB584F73D8469750B6E /* MyPage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CE6F81E6D7BFD203269DAFC2 /* MyPage.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3E1157D6CA577E7D5C124404 /* MyPage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6F81E6D7BFD203269DAFC2 /* MyPage.framework */; platformFilter = ios; };
 		43375B3FE4DF4740665D6C34 /* Assets+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068F7B977076588083CFB720 /* Assets+App.swift */; };
 		50AEE7600B114296E0277A8E /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DE442BA1C87E9CF5D190ED8 /* SnapKit.framework */; platformFilter = ios; };
 		57A4C34D3B42E3AFDD8356D3 /* SnapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0DE442BA1C87E9CF5D190ED8 /* SnapKit.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -54,6 +56,7 @@
 			files = (
 				010AE6840F0E57C6E2ACA685 /* CommonUI.framework in Embed Frameworks */,
 				1FFE35F98F648C958B1CA321 /* Home.framework in Embed Frameworks */,
+				2F654AB584F73D8469750B6E /* MyPage.framework in Embed Frameworks */,
 				57A4C34D3B42E3AFDD8356D3 /* SnapKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -78,6 +81,7 @@
 		BAFF060C3D8E68253DF6AABA /* AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7BB1C35E2A629DADB8BE53E /* Asset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Asset.xcassets; sourceTree = "<group>"; };
 		CB1AF9D0780E6CC42D791F41 /* Bundle+App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+App.swift"; sourceTree = "<group>"; };
+		CE6F81E6D7BFD203269DAFC2 /* MyPage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyPage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,7 @@
 			files = (
 				881CA26EEB8AD26A368C1BC0 /* CommonUI.framework in Frameworks */,
 				618C5A4BDBBDA7F1A2F8DC93 /* Home.framework in Frameworks */,
+				3E1157D6CA577E7D5C124404 /* MyPage.framework in Frameworks */,
 				50AEE7600B114296E0277A8E /* SnapKit.framework in Frameworks */,
 				2C625E388FE9330832B1D2FC /* Then.framework in Frameworks */,
 			);
@@ -190,6 +195,7 @@
 				BAFF060C3D8E68253DF6AABA /* AppTests.xctest */,
 				89C20992702726C56B7CAEA1 /* CommonUI.framework */,
 				76E66C32BAE4D2C1EE4C64CB /* Home.framework */,
+				CE6F81E6D7BFD203269DAFC2 /* MyPage.framework */,
 				0DE442BA1C87E9CF5D190ED8 /* SnapKit.framework */,
 				7703DB5539953F38792597A5 /* Then.framework */,
 			);

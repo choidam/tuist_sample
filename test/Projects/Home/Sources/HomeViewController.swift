@@ -28,7 +28,8 @@ open class HomeViewController: UIViewController {
 
 extension HomeViewController {
     private func initLayout(){
-        view.backgroundColor = .systemYellow
+        view.backgroundColor = CommonUIAsset.commonYellow.color
+        
         view.addSubview(titleLabel)
         
         titleLabel.snp.makeConstraints {
