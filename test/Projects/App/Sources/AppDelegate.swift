@@ -6,9 +6,11 @@
 //  Copyright © 2022 cocaine.io. All rights reserved.
 //
 
-import UIKit
+import CommonUI
 import Home
 import MyPage
+
+import UIKit
 
 @main class AppDelegate: UIResponder, UIApplicationDelegate {
     
@@ -25,10 +27,10 @@ import MyPage
         tabBarController.tabBar.isTranslucent = false
         
         let homeVC = HomeViewController()
-        homeVC.tabBarItem = UITabBarItem(title: "Home", image: UIImage(systemName: "square.and.arrow.up"), tag: 0)
+        homeVC.tabBarItem = UITabBarItem(title: "Home", image: CommonUIAsset.homeIcon.image, tag: 0)
         
         let mypageVC = MyPageViewController()
-        mypageVC.tabBarItem = UITabBarItem(title: "Mypage", image: UIImage(systemName: "heart.fill"), tag: 1)
+        mypageVC.tabBarItem = UITabBarItem(title: "MyPage", image: CommonUIAsset.mypageIcon.image, tag: 1)
         
         tabBarController.setViewControllers([homeVC, mypageVC], animated: false)
         
