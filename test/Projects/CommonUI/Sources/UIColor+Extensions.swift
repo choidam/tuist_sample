@@ -8,7 +8,6 @@
 
 import UIKit
 
-public extension UIColor {
-    class var commonYellow : UIColor { return UIColor(named: "commonYellow")! }
-    class var commonGreen: UIColor { return UIColor(named: "commonGreen")! }
+extension UIColor {
+    
 }
