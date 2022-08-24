@@ -15,7 +15,6 @@
 		4809699B5250B5C69D9AEE8C /* Assets+Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2926176AE0EBF649DE41AE5E /* Assets+Home.swift */; };
 		5C60EADD2EE58CDE8C6FF2C1 /* Then.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9FB11E9C0BBE6CD5E87883B /* Then.framework */; platformFilter = ios; };
 		65798E27ACC3EAE0D5E0FE25 /* Asset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 420FD2BF9D05BBEC40B1CDDE /* Asset.xcassets */; };
-		67EE5CE5E08C72B931284D20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A4255B20829AC8EFAA56CC0 /* LaunchScreen.storyboard */; };
 		94029276C56460E16AE4456E /* Home.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9290645AFD421A6E8E0A3C77 /* Home.framework */; platformFilter = ios; };
 		9B59FF3F69C633B26064301F /* SnapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 45853054D615EC22DCAE768B /* SnapKit.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9E5E2B3F30DD9698E7DA138C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAFEFB4CCEB4FBFFF16CA05 /* HomeViewController.swift */; };
@@ -24,7 +23,6 @@
 		AC1C088DE20E00BF54D1081E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9857DDFD57AE37470690AC80 /* AppDelegate.swift */; };
 		B753BE6ACD1C998CED5131B2 /* AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1864574ECD2ACFB8DF4D00EC /* AppTests.swift */; };
 		B7C01240D5125465C3F139EB /* Asset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 420FD2BF9D05BBEC40B1CDDE /* Asset.xcassets */; };
-		C6ABB6CD313CAA584A2A9C9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A4255B20829AC8EFAA56CC0 /* LaunchScreen.storyboard */; };
 		CEA111126170BDAFF89576D1 /* Assets+HomeDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDDACE0E27F6C40EC248B54 /* Assets+HomeDemoApp.swift */; };
 		D4A49C22EC46A6289670A9BA /* CommonUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 038A45AFD430A8988F107203 /* CommonUI.framework */; platformFilter = ios; };
 		EBDF1BBC02B858C73C50E8BA /* AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1864574ECD2ACFB8DF4D00EC /* AppTests.swift */; };
@@ -106,7 +104,6 @@
 		06225A691EAE6B53D3D8D88C /* Bundle+HomeDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+HomeDemoApp.swift"; sourceTree = "<group>"; };
 		1864574ECD2ACFB8DF4D00EC /* AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTests.swift; sourceTree = "<group>"; };
 		2926176AE0EBF649DE41AE5E /* Assets+Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Assets+Home.swift"; sourceTree = "<group>"; };
-		3A4255B20829AC8EFAA56CC0 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E27707CF3AF39D07540B293 /* HomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		420FD2BF9D05BBEC40B1CDDE /* Asset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Asset.xcassets; sourceTree = "<group>"; };
 		45853054D615EC22DCAE768B /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -194,7 +191,6 @@
 			isa = PBXGroup;
 			children = (
 				420FD2BF9D05BBEC40B1CDDE /* Asset.xcassets */,
-				3A4255B20829AC8EFAA56CC0 /* LaunchScreen.storyboard */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -377,7 +373,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				65798E27ACC3EAE0D5E0FE25 /* Asset.xcassets in Resources */,
-				C6ABB6CD313CAA584A2A9C9B /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,7 +381,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7C01240D5125465C3F139EB /* Asset.xcassets in Resources */,
-				67EE5CE5E08C72B931284D20 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
