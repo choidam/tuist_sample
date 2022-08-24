@@ -17,6 +17,7 @@ open class HomeViewController: UIViewController {
     
     private let titleLabel = UILabel().then {
         $0.text = "Home VC"
+        $0.font = CommonUIFontFamily.Pretendard.bold.font(size: 15)
     }
     
     open override func viewDidLoad() {
