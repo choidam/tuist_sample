@@ -25,6 +25,7 @@
 		881CA26EEB8AD26A368C1BC0 /* CommonUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89C20992702726C56B7CAEA1 /* CommonUI.framework */; platformFilter = ios; };
 		97639454D5E33450A0D8185C /* Bundle+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1AF9D0780E6CC42D791F41 /* Bundle+App.swift */; };
 		BD5931CEC9A7D63728EB2BCE /* AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89688C338AD182298E5871B5 /* AppTests.swift */; };
+		E5CEBBADE66F8C5DC74CF6DA /* Then.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7703DB5539953F38792597A5 /* Then.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 				1FFE35F98F648C958B1CA321 /* Home.framework in Embed Frameworks */,
 				2F654AB584F73D8469750B6E /* MyPage.framework in Embed Frameworks */,
 				57A4C34D3B42E3AFDD8356D3 /* SnapKit.framework in Embed Frameworks */,
+				E5CEBBADE66F8C5DC74CF6DA /* Then.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
