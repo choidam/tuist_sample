@@ -7,9 +7,11 @@
 //
 
 import CommonUI
+
 import UIKit
 import SnapKit
 import Then
+import RxSwift
 
 open class HomeViewController: UIViewController {
     
@@ -20,6 +22,21 @@ open class HomeViewController: UIViewController {
         $0.font = CommonUIFontFamily.Pretendard.bold.font(size: 15)
     }
     
+    // MARK: Property
+    
+    private let reactor: HomeViewReactor
+    
+    var disposeBag = DisposeBag()
+    
+    init(reactor: HomeViewReactor) {
+        self.reactor = reactor
+        super.init(nibName: nil, bundle: nil)
+    }
+    
+    required public init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
     open override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -28,6 +45,13 @@ open class HomeViewController: UIViewController {
 }
 
 extension HomeViewController {
+    public static func create() -> HomeViewController? {
+        let homeReactor = HomeViewReactor()
+        let homeVC = HomeViewController(reactor: homeReactor)
+        
+        return homeVC
+    }
+    
     private func initLayout(){
         view.backgroundColor = CommonUIAsset.commonYellow.color
         

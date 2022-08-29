@@ -33,6 +33,21 @@
                   location = "group:checkouts"
                   name = "checkouts">
                   <FileRef
+                     location = "group:CwlCatchException/CwlCatchException.xcodeproj">
+                  </FileRef>
+                  <FileRef
+                     location = "group:CwlPreconditionTesting/CwlPreconditionTesting.xcodeproj">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Nimble/Nimble.xcodeproj">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ReactorKit/ReactorKit.xcodeproj">
+                  </FileRef>
+                  <FileRef
+                     location = "group:RxNimble/RxNimble.xcodeproj">
+                  </FileRef>
+                  <FileRef
                      location = "group:RxSwift/RxSwift.xcodeproj">
                   </FileRef>
                   <FileRef
@@ -40,6 +55,9 @@
                   </FileRef>
                   <FileRef
                      location = "group:Then/Then.xcodeproj">
+                  </FileRef>
+                  <FileRef
+                     location = "group:WeakMapTable/WeakMapTable.xcodeproj">
                   </FileRef>
                </Group>
             </Group>

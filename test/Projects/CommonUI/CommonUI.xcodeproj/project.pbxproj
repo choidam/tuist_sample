@@ -7,21 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DDDF4256602AFBB3F2D4ED8 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC63D7E978738CCF3E183954 /* Nimble.framework */; platformFilter = ios; };
 		11268B36A9A3E7C03BC012C9 /* Pretendard-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = CA19D0E1A1DDDB474CA1BAAF /* Pretendard-Medium.otf */; };
 		1399D813DB86AFFE1FE86FA6 /* Fonts+CommonUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F33F6AC296FDCC695414FF4 /* Fonts+CommonUI.swift */; };
 		1E3D50B3B8E98CD999164947 /* Pretendard-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E44758A2D7B63C0B9D1A4FCA /* Pretendard-SemiBold.otf */; };
+		2B21C520F2A12506260FCE6D /* CwlPosixPreconditionTesting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97D899DF339C39912E110EA4 /* CwlPosixPreconditionTesting.framework */; platformFilter = ios; };
 		366C8F59F26EFE0811A63662 /* Assets+CommonUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D45D23EFC271CBD9B1E38 /* Assets+CommonUI.swift */; };
+		3B4FA57E73BB0ED850D3828A /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1321D979BCBEAF892D8C0C8 /* RxSwift.framework */; platformFilter = ios; };
 		3D811F8C92514D511EC18209 /* Pretendard-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = BD20C841392807058E9D641D /* Pretendard-ExtraBold.otf */; };
 		469DAC30ABF2E94E10A91EDD /* Pretendard-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9254DE170E2C9EF46BC208F7 /* Pretendard-ExtraLight.otf */; };
+		46F35A39A8C1FB2EBAA3A500 /* CwlCatchExceptionSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F030FE704F3E6D0040A96B81 /* CwlCatchExceptionSupport.framework */; platformFilter = ios; };
 		5124F19EAF6E494A6A4D65AB /* Pretendard-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E4B2BF4F730A5E0ED16E36AF /* Pretendard-Bold.otf */; };
+		5500C678B714E6EC434BDEE8 /* CwlPreconditionTesting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F02358C8691B2319C7DEDFD /* CwlPreconditionTesting.framework */; platformFilter = ios; };
 		58B702764F53366CA63D89D8 /* Asset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BB1AB775A07E3583B8990C0 /* Asset.xcassets */; };
+		6B5A4C1BA1270724002C1649 /* RxNimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9176ADE5DFD089C545E14153 /* RxNimble.framework */; platformFilter = ios; };
 		6DF53877516FF3BBE2AEEE2C /* Bundle+CommonUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A0B3A9E53E221B4F40070F /* Bundle+CommonUI.swift */; };
 		9F96C553D6B996A70CA7104D /* AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9CD994C7FF02BB0FCD22F5 /* AppTests.swift */; };
 		A5B92BA8E5B0B95831CD7594 /* CommonUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0F7A08F911F04FE3F6FE36B /* CommonUI.framework */; platformFilter = ios; };
+		BB9DF41CB6BFDFA9A5E56741 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 524E91A492B6D1C35FFBCBB6 /* RxBlocking.framework */; platformFilter = ios; };
+		BE62533442B9342984644207 /* CwlCatchException.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF13EECA643D1CCCE5EE829C /* CwlCatchException.framework */; platformFilter = ios; };
 		C12EDC11E38F8E7DEA4DE75F /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6EF530A9F924851573B4D1B /* RxTest.framework */; platformFilter = ios; };
 		DD7B6D9C2F1E0E84CD5BF6EA /* Pretendard-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 020FA6830603738802E49FCF /* Pretendard-Light.otf */; };
 		ED1E63BC85DC5B2B973F638A /* Pretendard-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = D6612D66D41B57CE16B6873D /* Pretendard-Regular.otf */; };
 		F3C1D6C870EA9AC44134B7D6 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB21508C22C7CADCBA98372 /* UIColor+Extensions.swift */; };
+		F45F44459146491B37BD3FD0 /* CwlMachBadInstructionHandler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EF69C2BAF4131FC493CEAA4 /* CwlMachBadInstructionHandler.framework */; platformFilter = ios; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,21 +70,30 @@
 		020FA6830603738802E49FCF /* Pretendard-Light.otf */ = {isa = PBXFileReference; path = "Pretendard-Light.otf"; sourceTree = "<group>"; };
 		0CB21508C22C7CADCBA98372 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 		0F33F6AC296FDCC695414FF4 /* Fonts+CommonUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Fonts+CommonUI.swift"; sourceTree = "<group>"; };
+		3EF69C2BAF4131FC493CEAA4 /* CwlMachBadInstructionHandler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CwlMachBadInstructionHandler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		48BE6369EDFE9A010358AD9C /* CommonUITests.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = CommonUITests.plist; sourceTree = "<group>"; };
 		4BB1AB775A07E3583B8990C0 /* Asset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Asset.xcassets; sourceTree = "<group>"; };
+		524E91A492B6D1C35FFBCBB6 /* RxBlocking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxBlocking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F02358C8691B2319C7DEDFD /* CwlPreconditionTesting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CwlPreconditionTesting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9176ADE5DFD089C545E14153 /* RxNimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxNimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9254DE170E2C9EF46BC208F7 /* Pretendard-ExtraLight.otf */ = {isa = PBXFileReference; path = "Pretendard-ExtraLight.otf"; sourceTree = "<group>"; };
 		94BDDAFD0F1A702B3BAACE2E /* CommonUI.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = CommonUI.plist; sourceTree = "<group>"; };
+		97D899DF339C39912E110EA4 /* CwlPosixPreconditionTesting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CwlPosixPreconditionTesting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5D40077623D17508E9E3D41 /* CommonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA9CD994C7FF02BB0FCD22F5 /* AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTests.swift; sourceTree = "<group>"; };
 		B0A0B3A9E53E221B4F40070F /* Bundle+CommonUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+CommonUI.swift"; sourceTree = "<group>"; };
 		BD20C841392807058E9D641D /* Pretendard-ExtraBold.otf */ = {isa = PBXFileReference; path = "Pretendard-ExtraBold.otf"; sourceTree = "<group>"; };
 		C6EF530A9F924851573B4D1B /* RxTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA19D0E1A1DDDB474CA1BAAF /* Pretendard-Medium.otf */ = {isa = PBXFileReference; path = "Pretendard-Medium.otf"; sourceTree = "<group>"; };
+		CF13EECA643D1CCCE5EE829C /* CwlCatchException.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CwlCatchException.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6612D66D41B57CE16B6873D /* Pretendard-Regular.otf */ = {isa = PBXFileReference; path = "Pretendard-Regular.otf"; sourceTree = "<group>"; };
+		DC63D7E978738CCF3E183954 /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E44758A2D7B63C0B9D1A4FCA /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; path = "Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
 		E4B2BF4F730A5E0ED16E36AF /* Pretendard-Bold.otf */ = {isa = PBXFileReference; path = "Pretendard-Bold.otf"; sourceTree = "<group>"; };
 		EB4D45D23EFC271CBD9B1E38 /* Assets+CommonUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Assets+CommonUI.swift"; sourceTree = "<group>"; };
+		F030FE704F3E6D0040A96B81 /* CwlCatchExceptionSupport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CwlCatchExceptionSupport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0F7A08F911F04FE3F6FE36B /* CommonUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1321D979BCBEAF892D8C0C8 /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +109,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5B92BA8E5B0B95831CD7594 /* CommonUI.framework in Frameworks */,
+				BE62533442B9342984644207 /* CwlCatchException.framework in Frameworks */,
+				46F35A39A8C1FB2EBAA3A500 /* CwlCatchExceptionSupport.framework in Frameworks */,
+				F45F44459146491B37BD3FD0 /* CwlMachBadInstructionHandler.framework in Frameworks */,
+				2B21C520F2A12506260FCE6D /* CwlPosixPreconditionTesting.framework in Frameworks */,
+				5500C678B714E6EC434BDEE8 /* CwlPreconditionTesting.framework in Frameworks */,
+				0DDDF4256602AFBB3F2D4ED8 /* Nimble.framework in Frameworks */,
+				BB9DF41CB6BFDFA9A5E56741 /* RxBlocking.framework in Frameworks */,
+				6B5A4C1BA1270724002C1649 /* RxNimble.framework in Frameworks */,
+				3B4FA57E73BB0ED850D3828A /* RxSwift.framework in Frameworks */,
 				C12EDC11E38F8E7DEA4DE75F /* RxTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -178,6 +205,15 @@
 			children = (
 				F0F7A08F911F04FE3F6FE36B /* CommonUI.framework */,
 				A5D40077623D17508E9E3D41 /* CommonUITests.xctest */,
+				CF13EECA643D1CCCE5EE829C /* CwlCatchException.framework */,
+				F030FE704F3E6D0040A96B81 /* CwlCatchExceptionSupport.framework */,
+				3EF69C2BAF4131FC493CEAA4 /* CwlMachBadInstructionHandler.framework */,
+				97D899DF339C39912E110EA4 /* CwlPosixPreconditionTesting.framework */,
+				6F02358C8691B2319C7DEDFD /* CwlPreconditionTesting.framework */,
+				DC63D7E978738CCF3E183954 /* Nimble.framework */,
+				524E91A492B6D1C35FFBCBB6 /* RxBlocking.framework */,
+				9176ADE5DFD089C545E14153 /* RxNimble.framework */,
+				F1321D979BCBEAF892D8C0C8 /* RxSwift.framework */,
 				C6EF530A9F924851573B4D1B /* RxTest.framework */,
 			);
 			name = Products;
@@ -511,6 +547,15 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/Dependencies/SwiftPackageManager/.build/checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchExceptionSupport.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/Dependencies/SwiftPackageManager/.build/checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchExceptionSupport.modulemap",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = team.io.CommonUITests;
 				PRODUCT_NAME = CommonUITests;
 				SDKROOT = iphoneos;
@@ -531,6 +576,15 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/Dependencies/SwiftPackageManager/.build/checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchExceptionSupport.modulemap",
+				);
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/Dependencies/SwiftPackageManager/.build/checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchExceptionSupport.modulemap",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = team.io.CommonUITests;
 				PRODUCT_NAME = CommonUITests;

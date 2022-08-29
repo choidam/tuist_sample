@@ -26,7 +26,7 @@ import UIKit
         tabBarController.tabBar.tintColor = .systemBlue
         tabBarController.tabBar.isTranslucent = false
         
-        let homeVC = HomeViewController()
+        let homeVC = HomeViewController.create() ?? UIViewController()
         homeVC.tabBarItem = UITabBarItem(title: "Home", image: CommonUIAsset.homeIcon.image, tag: 0)
         
         let mypageVC = MyPageViewController()

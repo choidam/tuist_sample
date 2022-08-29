@@ -22,6 +22,7 @@ let project = Project.frameworkWithDemoApp(name: projectName,
                                            dependencies: [
                                             .external(name: "SnapKit"),
                                             .external(name: "Then"),
+                                            .external(name: "ReactorKit"),
                                             .project(target: "CommonUI", path: .relativeToCurrentFile("../CommonUI"))
                                            ])
 

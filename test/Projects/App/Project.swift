@@ -20,6 +20,7 @@ let project = Project.app(name: projectName,
                           dependencies: [
                             .external(name: "SnapKit"),
                             .external(name: "Then"),
+                            .external(name: "ReactorKit"),
                             .project(target: "Home", path: .relativeToCurrentFile("../Home")),
                             .project(target: "MyPage", path: .relativeToCurrentFile("../MyPage")),
                             .project(target: "CommonUI", path: .relativeToCurrentFile("../CommonUI"))

@@ -78,7 +78,8 @@ private extension Project {
                            resources: [],
                            dependencies: [
                             .target(name: name),
-                            .external(name: "RxTest")
+                            .external(name: "RxTest"),
+                            .external(name: "RxNimble")
                            ])
         return [sources, tests]
     }
@@ -107,7 +108,8 @@ private extension Project {
             sources: ["Tests/**"],
             dependencies: [
                 .target(name: "\(name)"),
-                .external(name: "RxTest")
+                .external(name: "RxTest"),
+                .external(name: "RxNimble")
             ])
         return [mainTarget, testTarget]
     }
@@ -136,7 +138,8 @@ private extension Project {
             sources: ["Tests/**"],
             dependencies: [
                 .target(name: "\(name)"),
-                .external(name: "RxTest")
+                .external(name: "RxTest"),
+                .external(name: "RxNimble")
             ])
         return [mainTarget, testTarget]
     }
