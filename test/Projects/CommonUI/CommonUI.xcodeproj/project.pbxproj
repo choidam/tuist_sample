@@ -18,6 +18,7 @@
 		6DF53877516FF3BBE2AEEE2C /* Bundle+CommonUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A0B3A9E53E221B4F40070F /* Bundle+CommonUI.swift */; };
 		9F96C553D6B996A70CA7104D /* AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9CD994C7FF02BB0FCD22F5 /* AppTests.swift */; };
 		A5B92BA8E5B0B95831CD7594 /* CommonUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0F7A08F911F04FE3F6FE36B /* CommonUI.framework */; platformFilter = ios; };
+		C12EDC11E38F8E7DEA4DE75F /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6EF530A9F924851573B4D1B /* RxTest.framework */; platformFilter = ios; };
 		DD7B6D9C2F1E0E84CD5BF6EA /* Pretendard-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 020FA6830603738802E49FCF /* Pretendard-Light.otf */; };
 		ED1E63BC85DC5B2B973F638A /* Pretendard-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = D6612D66D41B57CE16B6873D /* Pretendard-Regular.otf */; };
 		F3C1D6C870EA9AC44134B7D6 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB21508C22C7CADCBA98372 /* UIColor+Extensions.swift */; };
@@ -68,6 +69,7 @@
 		AA9CD994C7FF02BB0FCD22F5 /* AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTests.swift; sourceTree = "<group>"; };
 		B0A0B3A9E53E221B4F40070F /* Bundle+CommonUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+CommonUI.swift"; sourceTree = "<group>"; };
 		BD20C841392807058E9D641D /* Pretendard-ExtraBold.otf */ = {isa = PBXFileReference; path = "Pretendard-ExtraBold.otf"; sourceTree = "<group>"; };
+		C6EF530A9F924851573B4D1B /* RxTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA19D0E1A1DDDB474CA1BAAF /* Pretendard-Medium.otf */ = {isa = PBXFileReference; path = "Pretendard-Medium.otf"; sourceTree = "<group>"; };
 		D6612D66D41B57CE16B6873D /* Pretendard-Regular.otf */ = {isa = PBXFileReference; path = "Pretendard-Regular.otf"; sourceTree = "<group>"; };
 		E44758A2D7B63C0B9D1A4FCA /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; path = "Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5B92BA8E5B0B95831CD7594 /* CommonUI.framework in Frameworks */,
+				C12EDC11E38F8E7DEA4DE75F /* RxTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,6 +178,7 @@
 			children = (
 				F0F7A08F911F04FE3F6FE36B /* CommonUI.framework */,
 				A5D40077623D17508E9E3D41 /* CommonUITests.xctest */,
+				C6EF530A9F924851573B4D1B /* RxTest.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";

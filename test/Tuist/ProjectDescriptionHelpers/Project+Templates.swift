@@ -76,7 +76,10 @@ private extension Project {
                            infoPlist: .default,
                            sources: ["Tests/**"],
                            resources: [],
-                           dependencies: [.target(name: name)])
+                           dependencies: [
+                            .target(name: name),
+                            .external(name: "RxTest")
+                           ])
         return [sources, tests]
     }
 
@@ -103,7 +106,8 @@ private extension Project {
             infoPlist: .default,
             sources: ["Tests/**"],
             dependencies: [
-                .target(name: "\(name)")
+                .target(name: "\(name)"),
+                .external(name: "RxTest")
             ])
         return [mainTarget, testTarget]
     }
@@ -131,7 +135,8 @@ private extension Project {
             infoPlist: .default,
             sources: ["Tests/**"],
             dependencies: [
-                .target(name: "\(name)")
+                .target(name: "\(name)"),
+                .external(name: "RxTest")
             ])
         return [mainTarget, testTarget]
     }
