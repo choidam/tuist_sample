@@ -9,17 +9,25 @@
 import CommonUI
 
 import UIKit
+import RxSwift
+import RxCocoa
+import ReactorKit
 import SnapKit
 import Then
-import RxSwift
 
 open class HomeViewController: UIViewController {
     
     // MARK: UI
     
-    private let titleLabel = UILabel().then {
-        $0.text = "Home VC"
-        $0.font = CommonUIFontFamily.Pretendard.bold.font(size: 15)
+    private let homeButton = UIButton().then {
+        $0.setTitle("home button", for: .normal)
+        $0.titleLabel?.font = CommonUIFontFamily.Pretendard.bold.font(size: 15)
+        $0.setTitleColor(.black, for: .normal)
+    }
+    
+    private let homeLabel = UILabel().then {
+        $0.font = CommonUIFontFamily.Pretendard.medium.font(size: 15)
+        $0.textColor = .black
     }
     
     // MARK: Property
@@ -31,6 +39,7 @@ open class HomeViewController: UIViewController {
     init(reactor: HomeViewReactor) {
         self.reactor = reactor
         super.init(nibName: nil, bundle: nil)
+        self.bind(reactor: reactor)
     }
     
     required public init?(coder: NSCoder) {
@@ -55,11 +64,30 @@ extension HomeViewController {
     private func initLayout(){
         view.backgroundColor = CommonUIAsset.commonYellow.color
         
-        view.addSubview(titleLabel)
+        view.addSubview(homeButton)
+        view.addSubview(homeLabel)
         
-        titleLabel.snp.makeConstraints {
+        homeButton.snp.makeConstraints {
+            $0.top.equalTo(200)
             $0.centerX.equalToSuperview()
-            $0.centerY.equalToSuperview()
         }
+        
+        homeLabel.snp.makeConstraints {
+            $0.top.equalTo(homeButton.snp.bottom).offset(50)
+            $0.centerX.equalToSuperview()
+        }
+    }
+    
+    func bind(reactor: HomeViewReactor){
+        homeButton.rx.tap
+            .map { _ in HomeViewReactor.Action.buttonTap }
+            .bind(to: reactor.action)
+            .disposed(by: disposeBag)
+        
+        reactor.state
+            .map { $0.count }
+            .map { "\($0)" }
+            .bind(to: homeLabel.rx.text)
+            .disposed(by: disposeBag)
     }
 }
