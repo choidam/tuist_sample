@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		063E68E24089856E4C562165 /* HomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADBDBCE22FDE304B4127596 /* HomeTests.swift */; };
 		07A2940EBD6DEEE4528E0A34 /* CwlCatchExceptionSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2A275D4BF28BB5F7806F384 /* CwlCatchExceptionSupport.framework */; platformFilter = ios; };
+		09C5D740E36CED27F2357AEA /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D1EE48DA2405FA422E8CB01 /* CFNetwork.framework */; };
 		0CD87B661B48F574F7A9FC3B /* ReactorKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CDF05FA7019805A4782C5B7B /* ReactorKit.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		12D179C64C78BF182DD92F94 /* CwlMachBadInstructionHandler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C9AFD2FA9FF5C2577E71E03 /* CwlMachBadInstructionHandler.framework */; platformFilter = ios; };
 		17541D9BBB3EF49648EC9C0A /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45853054D615EC22DCAE768B /* SnapKit.framework */; platformFilter = ios; };
@@ -31,6 +32,7 @@
 		5EB925C56BBC2152A02DEFA7 /* ReactorKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDF05FA7019805A4782C5B7B /* ReactorKit.framework */; platformFilter = ios; };
 		639AF2B0BD002A5C9C11ADFF /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 20F8FDE75AA4AE6596EC8924 /* RxCocoa.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		65798E27ACC3EAE0D5E0FE25 /* Asset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 420FD2BF9D05BBEC40B1CDDE /* Asset.xcassets */; };
+		6609608E1BAF9D6AB023A1E0 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1A5FAB7ADFFA55459CCD3E /* Alamofire.framework */; platformFilter = ios; };
 		715FD3F84A0B8DA19F5E06E1 /* CwlCatchExceptionSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2A275D4BF28BB5F7806F384 /* CwlCatchExceptionSupport.framework */; platformFilter = ios; };
 		7C5BFDD655C01B45528B2AF8 /* RxTest.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B1A0234CC4AB05E3268BBB06 /* RxTest.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		80E41B22BD46A07B146BD1E7 /* Then.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B9FB11E9C0BBE6CD5E87883B /* Then.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -47,6 +49,7 @@
 		A56CFD7EEBA4E38C65E4446F /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B7677109108C714F33048E /* Nimble.framework */; platformFilter = ios; };
 		A815A534E7BEA040621ED045 /* Home.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9290645AFD421A6E8E0A3C77 /* Home.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A8D7E2F376F2B236FBFB7775 /* CwlCatchException.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC9881DBD6B95284DF628CBF /* CwlCatchException.framework */; platformFilter = ios; };
+		AA1A51C94BF526002F878644 /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45A37D9EB117BE8E26CCEAF /* Moya.framework */; platformFilter = ios; };
 		AC1C088DE20E00BF54D1081E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9857DDFD57AE37470690AC80 /* AppDelegate.swift */; };
 		AF9E1BA7715D0CD8EC802D53 /* CwlCatchException.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC9881DBD6B95284DF628CBF /* CwlCatchException.framework */; platformFilter = ios; };
 		B7C01240D5125465C3F139EB /* Asset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 420FD2BF9D05BBEC40B1CDDE /* Asset.xcassets */; };
@@ -157,6 +160,7 @@
 		45853054D615EC22DCAE768B /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		468E8464BF81A55EFE6DD464 /* HomeDemoApp.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = HomeDemoApp.plist; sourceTree = "<group>"; };
 		4FDDACE0E27F6C40EC248B54 /* Assets+HomeDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Assets+HomeDemoApp.swift"; sourceTree = "<group>"; };
+		5B1A5FAB7ADFFA55459CCD3E /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6798B3D951E21BDB22AB3252 /* HomeViewReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewReactor.swift; sourceTree = "<group>"; };
 		71FC9F6A7008B4E96E4221F8 /* HomeDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		729FA2B03B5F843DDBD257D2 /* RxCocoaRuntime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxCocoaRuntime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -167,11 +171,13 @@
 		8A12ADDAFFEAE27230C256C7 /* HomeDemoAppTests.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = HomeDemoAppTests.plist; sourceTree = "<group>"; };
 		9290645AFD421A6E8E0A3C77 /* Home.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Home.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9857DDFD57AE37470690AC80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9D1EE48DA2405FA422E8CB01 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		B1A0234CC4AB05E3268BBB06 /* RxTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2A275D4BF28BB5F7806F384 /* CwlCatchExceptionSupport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CwlCatchExceptionSupport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9FB11E9C0BBE6CD5E87883B /* Then.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Then.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CADBDBCE22FDE304B4127596 /* HomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTests.swift; sourceTree = "<group>"; };
 		CDF05FA7019805A4782C5B7B /* ReactorKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactorKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E45A37D9EB117BE8E26CCEAF /* Moya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Moya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC3F84F9CB9590F8FFD68572 /* HomeDemoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeDemoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC9881DBD6B95284DF628CBF /* CwlCatchException.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CwlCatchException.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDE8EE31791B80429611F213 /* HomeTests.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = HomeTests.plist; sourceTree = "<group>"; };
@@ -199,7 +205,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09C5D740E36CED27F2357AEA /* CFNetwork.framework in Frameworks */,
+				6609608E1BAF9D6AB023A1E0 /* Alamofire.framework in Frameworks */,
 				D4A49C22EC46A6289670A9BA /* CommonUI.framework in Frameworks */,
+				AA1A51C94BF526002F878644 /* Moya.framework in Frameworks */,
 				5EB925C56BBC2152A02DEFA7 /* ReactorKit.framework in Frameworks */,
 				C3CF772E6BC77F1C552A8C1A /* RxCocoa.framework in Frameworks */,
 				C180B0DD326057098CA31E3C /* RxSwift.framework in Frameworks */,
@@ -240,6 +249,7 @@
 		156072FA40260C0FBAAE35F3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				5B1A5FAB7ADFFA55459CCD3E /* Alamofire.framework */,
 				038A45AFD430A8988F107203 /* CommonUI.framework */,
 				FC9881DBD6B95284DF628CBF /* CwlCatchException.framework */,
 				B2A275D4BF28BB5F7806F384 /* CwlCatchExceptionSupport.framework */,
@@ -250,6 +260,7 @@
 				71FC9F6A7008B4E96E4221F8 /* HomeDemoApp.app */,
 				EC3F84F9CB9590F8FFD68572 /* HomeDemoAppTests.xctest */,
 				3E27707CF3AF39D07540B293 /* HomeTests.xctest */,
+				E45A37D9EB117BE8E26CCEAF /* Moya.framework */,
 				42B7677109108C714F33048E /* Nimble.framework */,
 				CDF05FA7019805A4782C5B7B /* ReactorKit.framework */,
 				24561330F07D521594459A6A /* RxBlocking.framework */,
@@ -276,6 +287,7 @@
 		440337F7B58BC84FCBC5A96E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9D1EE48DA2405FA422E8CB01 /* CFNetwork.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -453,8 +465,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				52E844066D197E3B81FA748F /* Home */,
 				AF31213DA71B06E9B09EA3F0 /* HomeTests */,
+				52E844066D197E3B81FA748F /* Home */,
 				27329F91906B66B8A2D755D1 /* HomeDemoApp */,
 				D46DE6B0B5F2A6D274B7D0CF /* HomeDemoAppTests */,
 			);

@@ -301,8 +301,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CFD7DEB690E20277121FAD5C /* CommonUI */,
 				EDAB8291F2D457496E91E9DD /* CommonUITests */,
+				CFD7DEB690E20277121FAD5C /* CommonUI */,
 			);
 		};
 /* End PBXProject section */

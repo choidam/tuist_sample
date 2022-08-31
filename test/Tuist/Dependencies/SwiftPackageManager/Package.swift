@@ -9,5 +9,6 @@ let package = Package(
         .package(url: "https://github.com/devxoul/Then", from: "3.0.0"),
         .package(url: "https://github.com/ReactiveX/RxSwift.git", .upToNextMinor(from: "6.5.0")),
         .package(url: "https://github.com/RxSwiftCommunity/RxNimble.git", from: "5.0.0"),
+        .package(url: "https://github.com/Moya/Moya.git", from: "15.0.0"),
     ]
 )

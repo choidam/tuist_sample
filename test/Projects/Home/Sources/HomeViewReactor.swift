@@ -7,6 +7,8 @@
 //
 
 import ReactorKit
+import Moya
+import Foundation
 
 final class HomeViewReactor: Reactor {
     enum Action {
