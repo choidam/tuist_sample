@@ -19,14 +19,20 @@ open class HomeViewController: UIViewController {
     
     // MARK: UI
     
-    private let homeButton = UIButton().then {
-        $0.setTitle("home button", for: .normal)
-        $0.titleLabel?.font = CommonUIFontFamily.Pretendard.bold.font(size: 15)
-        $0.setTitleColor(.black, for: .normal)
+    private let plusButton = UIButton().then {
+        $0.setTitle("plus", for: .normal)
+        $0.titleLabel?.font = CommonUIFontFamily.Pretendard.bold.font(size: 20)
+        $0.setTitleColor(CommonUIAsset.black.color, for: .normal)
     }
     
-    private let homeLabel = UILabel().then {
-        $0.font = CommonUIFontFamily.Pretendard.medium.font(size: 15)
+    private let minusButton = UIButton().then {
+        $0.setTitle("minus", for: .normal)
+        $0.titleLabel?.font = CommonUIFontFamily.Pretendard.bold.font(size: 20)
+        $0.setTitleColor(CommonUIAsset.black.color, for: .normal)
+    }
+    
+    private let countLabel = UILabel().then {
+        $0.font = CommonUIFontFamily.Pretendard.medium.font(size: 20)
         $0.textColor = .black
     }
     
@@ -61,33 +67,47 @@ extension HomeViewController {
         return homeVC
     }
     
+    private func addViews(){
+        view.addSubview(plusButton)
+        view.addSubview(minusButton)
+        view.addSubview(countLabel)
+    }
+    
     private func initLayout(){
         view.backgroundColor = CommonUIAsset.commonYellow.color
+        addViews()
         
-        view.addSubview(homeButton)
-        view.addSubview(homeLabel)
-        
-        homeButton.snp.makeConstraints {
+        plusButton.snp.makeConstraints {
             $0.top.equalTo(200)
             $0.centerX.equalToSuperview()
         }
         
-        homeLabel.snp.makeConstraints {
-            $0.top.equalTo(homeButton.snp.bottom).offset(50)
+        minusButton.snp.makeConstraints {
+            $0.top.equalTo(plusButton.snp.bottom).offset(50)
+            $0.centerX.equalToSuperview()
+        }
+        
+        countLabel.snp.makeConstraints {
+            $0.top.equalTo(minusButton.snp.bottom).offset(100)
             $0.centerX.equalToSuperview()
         }
     }
     
     func bind(reactor: HomeViewReactor){
-        homeButton.rx.tap
-            .map { _ in HomeViewReactor.Action.buttonTap }
+        plusButton.rx.tap
+            .map { _ in HomeViewReactor.Action.plus }
+            .bind(to: reactor.action)
+            .disposed(by: disposeBag)
+           
+        minusButton.rx.tap
+            .map { _ in HomeViewReactor.Action.minus }
             .bind(to: reactor.action)
             .disposed(by: disposeBag)
         
         reactor.state
             .map { $0.count }
             .map { "\($0)" }
-            .bind(to: homeLabel.rx.text)
+            .bind(to: countLabel.rx.text)
             .disposed(by: disposeBag)
     }
 }

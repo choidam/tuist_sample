@@ -16,7 +16,10 @@ let dependencies = Dependencies(
             .remote(url: "https://github.com/ReactiveX/RxSwift.git", requirement: .upToNextMinor(from: "6.5.0")),
             .remote(url: "https://github.com/RxSwiftCommunity/RxNimble.git", requirement: .upToNextMajor(from: "5.0.0")),
          ],
-         productTypes: ["Then": .framework]
+         productTypes: [
+            "ReactorKit": .framework,
+            "Then": .framework
+         ]
      ),
      platforms: [.iOS]
  )

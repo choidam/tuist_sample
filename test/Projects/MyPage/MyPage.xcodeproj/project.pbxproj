@@ -18,7 +18,6 @@
 		16F7C6027D356F5203AF351E /* SnapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 952C77C0D77B9A5A1F4AC653 /* SnapKit.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		17EFF17C2C8DD0A6E525503C /* RxNimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA572C2062317CC59BD76B7 /* RxNimble.framework */; platformFilter = ios; };
 		1CEE0E3E7F9A05955170E9A0 /* CwlCatchException.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8DEDB88E8A74B0C779BA6C /* CwlCatchException.framework */; platformFilter = ios; };
-		24F207CAD2E26E481DD54DDC /* ReactorKitRuntime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0BD4F8E273D27028D8E6D70 /* ReactorKitRuntime.framework */; platformFilter = ios; };
 		2E516FB18C691548D2200D9A /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B896C849D3C9B09A4DA8DA3 /* MyPageViewController.swift */; };
 		3DDC4ED2F7E3DB07007E1FC5 /* CwlMachBadInstructionHandler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1A518DDFE68DD8C351200E3 /* CwlMachBadInstructionHandler.framework */; platformFilter = ios; };
 		4389DE362BC639B023E92A4C /* CwlPosixPreconditionTesting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B297D3C9D2A0F61FDB8E796 /* CwlPosixPreconditionTesting.framework */; platformFilter = ios; };
@@ -40,6 +39,7 @@
 		7FEB498B65D6C0B16170E318 /* AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362A6F4C9629B2716D7A8897 /* AppTests.swift */; };
 		8A4DCC97B594275446AB1165 /* RxBlocking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3A068173D160B85364C27519 /* RxBlocking.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8D119FBF9665B444A89F57A0 /* RxTest.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CC905568A99FA074A2176B2A /* RxTest.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8FC8292A36D1FA781F74D258 /* ReactorKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5451FB8FE3F0A67FF9A5BFD8 /* ReactorKit.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		96337C1A3C49904C88A5ACF3 /* CwlPreconditionTesting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8A85EB8443A7BB80067EA0 /* CwlPreconditionTesting.framework */; platformFilter = ios; };
 		A2B4386E44E3F0230E25C263 /* Bundle+MyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EAA15306FB979E92C0AFE7 /* Bundle+MyPage.swift */; };
 		A56BB697C6D6A24981CB13FA /* Asset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA0F18C919141AC5B3C7B89B /* Asset.xcassets */; };
@@ -55,7 +55,6 @@
 		DBFBBF43A2C176FC02A81063 /* Assets+MyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CD9BED747E96AB233E0605 /* Assets+MyPage.swift */; };
 		DE5931B52954ABDC92176E76 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1858C44573A8E09999B6B14E /* RxSwift.framework */; platformFilter = ios; };
 		F0396CA3ECD8148316C08113 /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1858C44573A8E09999B6B14E /* RxSwift.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F286F2F1BDC602528C9D6BEE /* WeakMapTable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F75CE95233817BEF41A48B2F /* WeakMapTable.framework */; platformFilter = ios; };
 		F5F4E95867B14FE875863B92 /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC905568A99FA074A2176B2A /* RxTest.framework */; platformFilter = ios; };
 		F7D3B4D9BA80343838D49AD0 /* RxRelay.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C1A999529C3BCED58ED0D1AC /* RxRelay.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FDF2CF1890F36EEE391AA8E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B7F839753BC6A2E0BF2F97 /* AppDelegate.swift */; };
@@ -94,6 +93,7 @@
 			files = (
 				08E5922290C4340C314980FC /* CommonUI.framework in Embed Frameworks */,
 				5522B322E9E77E3EF7711ECC /* MyPage.framework in Embed Frameworks */,
+				8FC8292A36D1FA781F74D258 /* ReactorKit.framework in Embed Frameworks */,
 				C51A9421C65525CDCA88436C /* RxCocoa.framework in Embed Frameworks */,
 				7CB70488AA95394666973787 /* RxCocoaRuntime.framework in Embed Frameworks */,
 				F7D3B4D9BA80343838D49AD0 /* RxRelay.framework in Embed Frameworks */,
@@ -164,7 +164,6 @@
 		B9D1E35D4A2A6A2125E01815 /* Bundle+MyPageDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+MyPageDemoApp.swift"; sourceTree = "<group>"; };
 		BEA572C2062317CC59BD76B7 /* RxNimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxNimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A6FAE1C68B42E6A363E304 /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0BD4F8E273D27028D8E6D70 /* ReactorKitRuntime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactorKitRuntime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0CD9BED747E96AB233E0605 /* Assets+MyPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Assets+MyPage.swift"; sourceTree = "<group>"; };
 		C1A999529C3BCED58ED0D1AC /* RxRelay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxRelay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA0F18C919141AC5B3C7B89B /* Asset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Asset.xcassets; sourceTree = "<group>"; };
@@ -173,7 +172,6 @@
 		CD4C9D2130E70338E16F60DA /* CommonUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2250E7E4991D615622146F7 /* Then.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Then.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F665A1F890B7FFA928689E97 /* MyPageDemoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyPageDemoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F75CE95233817BEF41A48B2F /* WeakMapTable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WeakMapTable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,12 +189,10 @@
 			files = (
 				CE62FD63351F77276ECA6751 /* CommonUI.framework in Frameworks */,
 				495191E51D5F6CE3490DC50B /* ReactorKit.framework in Frameworks */,
-				24F207CAD2E26E481DD54DDC /* ReactorKitRuntime.framework in Frameworks */,
 				7C01B267E117C69B56CB2BB3 /* RxCocoa.framework in Frameworks */,
 				DE5931B52954ABDC92176E76 /* RxSwift.framework in Frameworks */,
 				C84E1067099CEB0415B956AC /* SnapKit.framework in Frameworks */,
 				B5B8BB773CB5DD8793A02B9F /* Then.framework in Frameworks */,
-				F286F2F1BDC602528C9D6BEE /* WeakMapTable.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +284,6 @@
 				17412FF769197BE5AA09DBFB /* MyPageTests.xctest */,
 				C0A6FAE1C68B42E6A363E304 /* Nimble.framework */,
 				5451FB8FE3F0A67FF9A5BFD8 /* ReactorKit.framework */,
-				C0BD4F8E273D27028D8E6D70 /* ReactorKitRuntime.framework */,
 				3A068173D160B85364C27519 /* RxBlocking.framework */,
 				267C32F92D5AD5226F75E39F /* RxCocoa.framework */,
 				09B04B670A4A02A8BA413199 /* RxCocoaRuntime.framework */,
@@ -298,7 +293,6 @@
 				CC905568A99FA074A2176B2A /* RxTest.framework */,
 				952C77C0D77B9A5A1F4AC653 /* SnapKit.framework */,
 				E2250E7E4991D615622146F7 /* Then.framework */,
-				F75CE95233817BEF41A48B2F /* WeakMapTable.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";

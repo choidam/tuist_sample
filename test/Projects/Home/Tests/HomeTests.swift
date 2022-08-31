@@ -30,9 +30,17 @@ class HomeTests: XCTestCase {
     
     func testCount() throws {
         scheduler
-            .createHotObservable([
-                .next(1, HomeViewReactor.Action.buttonTap),
-                .next(2, HomeViewReactor.Action.buttonTap)
+            .createColdObservable([
+                .next(10, HomeViewReactor.Action.plus),
+                .next(20, HomeViewReactor.Action.plus),
+                .next(30, HomeViewReactor.Action.plus)
+            ])
+            .bind(to: reactor.action)
+            .disposed(by: disposeBag)
+        
+        scheduler
+            .createColdObservable([
+                .next(15, HomeViewReactor.Action.minus)
             ])
             .bind(to: reactor.action)
             .disposed(by: disposeBag)
@@ -41,8 +49,10 @@ class HomeTests: XCTestCase {
             .events(scheduler: scheduler, disposeBag: disposeBag)
             .to(equal([
                 .next(0, 0),
-                .next(1, 1),
-                .next(2, 2)
+                .next(10, 1),
+                .next(15, 0),
+                .next(20, 1),
+                .next(30, 2)
             ]))
     }
 }

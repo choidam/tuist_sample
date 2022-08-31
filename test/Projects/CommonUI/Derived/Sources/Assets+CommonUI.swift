@@ -17,6 +17,7 @@
 
 // swiftlint:disable identifier_name line_length nesting type_body_length type_name
 public enum CommonUIAsset {
+  public static let black = CommonUIColors(name: "black")
   public static let commonGreen = CommonUIColors(name: "commonGreen")
   public static let commonYellow = CommonUIColors(name: "commonYellow")
   public static let homeIcon = CommonUIImages(name: "homeIcon")

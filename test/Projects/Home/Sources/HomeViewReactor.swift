@@ -10,11 +10,13 @@ import ReactorKit
 
 final class HomeViewReactor: Reactor {
     enum Action {
-        case buttonTap
+        case plus
+        case minus
     }
     
     enum Mutation {
-       case buttonTap
+        case plus
+        case minus
     }
     
     struct State {
@@ -29,8 +31,10 @@ final class HomeViewReactor: Reactor {
     
     func mutate(action: Action) -> Observable<Mutation> {
         switch action {
-        case .buttonTap:
-            return .just(.buttonTap)
+        case .plus:
+            return .just(.plus)
+        case .minus:
+            return .just(.minus)
         }
     }
     
@@ -38,8 +42,10 @@ final class HomeViewReactor: Reactor {
         var state = state
         
         switch mutation {
-        case .buttonTap:
+        case .plus:
             state.count += 1
+        case .minus:
+            state.count -= 1
         }
         
         return state
