@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -62,6 +62,16 @@
 		D57FDE5B6D33D593026307B3 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AC33FA1CBE648EA8E368396 /* RxSwift.framework */; platformFilter = ios; };
 		E53ED442D64EA80FE8AB4D7C /* HomeViewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6798B3D951E21BDB22AB3252 /* HomeViewReactor.swift */; };
 		E9BDF530EAC8B507C6A2E91B /* RxBlocking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 24561330F07D521594459A6A /* RxBlocking.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EDBEC78428C09154008F1C86 /* HomeAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBEC78328C09154008F1C86 /* HomeAPITests.swift */; };
+		EDBEC78528C09154008F1C86 /* HomeAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBEC78328C09154008F1C86 /* HomeAPITests.swift */; };
+		EDBEC78628C091FC008F1C86 /* HomeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBEC77D28C08AC0008F1C86 /* HomeAPI.swift */; };
+		EDBEC78728C09200008F1C86 /* HomeAPIProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBEC77F28C08BE4008F1C86 /* HomeAPIProvider.swift */; };
+		EDBEC78828C09202008F1C86 /* ProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBEC78128C09066008F1C86 /* ProviderProtocol.swift */; };
+		EDBEC78928C0A5EF008F1C86 /* HomeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBEC77D28C08AC0008F1C86 /* HomeAPI.swift */; };
+		EDBEC78A28C0A5F2008F1C86 /* HomeAPIProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBEC77F28C08BE4008F1C86 /* HomeAPIProvider.swift */; };
+		EDBEC78B28C0A5F5008F1C86 /* ProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBEC78128C09066008F1C86 /* ProviderProtocol.swift */; };
+		EDBEC78E28C0AAF0008F1C86 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBEC78C28C0AAC2008F1C86 /* User.swift */; };
+		EDBEC78F28C0AAF0008F1C86 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBEC78C28C0AAC2008F1C86 /* User.swift */; };
 		F58777796E3F19C07E84AE1F /* Bundle+HomeDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06225A691EAE6B53D3D8D88C /* Bundle+HomeDemoApp.swift */; };
 /* End PBXBuildFile section */
 
@@ -179,6 +189,11 @@
 		CDF05FA7019805A4782C5B7B /* ReactorKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactorKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E45A37D9EB117BE8E26CCEAF /* Moya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Moya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC3F84F9CB9590F8FFD68572 /* HomeDemoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeDemoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDBEC77D28C08AC0008F1C86 /* HomeAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAPI.swift; sourceTree = "<group>"; };
+		EDBEC77F28C08BE4008F1C86 /* HomeAPIProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAPIProvider.swift; sourceTree = "<group>"; };
+		EDBEC78128C09066008F1C86 /* ProviderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderProtocol.swift; sourceTree = "<group>"; };
+		EDBEC78328C09154008F1C86 /* HomeAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAPITests.swift; sourceTree = "<group>"; };
+		EDBEC78C28C0AAC2008F1C86 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		FC9881DBD6B95284DF628CBF /* CwlCatchException.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CwlCatchException.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDE8EE31791B80429611F213 /* HomeTests.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = HomeTests.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -279,6 +294,7 @@
 		400DC7E225B26D6ADA5EE8F1 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				EDBEC78328C09154008F1C86 /* HomeAPITests.swift */,
 				CADBDBCE22FDE304B4127596 /* HomeTests.swift */,
 			);
 			path = Tests;
@@ -343,6 +359,7 @@
 		B74810073A3D8A4993EE22B2 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				EDBEC77C28C08AB2008F1C86 /* API */,
 				9857DDFD57AE37470690AC80 /* AppDelegate.swift */,
 				7CAFEFB4CCEB4FBFFF16CA05 /* HomeViewController.swift */,
 				6798B3D951E21BDB22AB3252 /* HomeViewReactor.swift */,
@@ -359,6 +376,17 @@
 				FDE8EE31791B80429611F213 /* HomeTests.plist */,
 			);
 			path = InfoPlists;
+			sourceTree = "<group>";
+		};
+		EDBEC77C28C08AB2008F1C86 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				EDBEC77D28C08AC0008F1C86 /* HomeAPI.swift */,
+				EDBEC77F28C08BE4008F1C86 /* HomeAPIProvider.swift */,
+				EDBEC78128C09066008F1C86 /* ProviderProtocol.swift */,
+				EDBEC78C28C0AAC2008F1C86 /* User.swift */,
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -512,9 +540,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				4809699B5250B5C69D9AEE8C /* Assets+Home.swift in Sources */,
+				EDBEC78928C0A5EF008F1C86 /* HomeAPI.swift in Sources */,
 				3CF24369ED0D7818CE43B738 /* Bundle+Home.swift in Sources */,
 				AC1C088DE20E00BF54D1081E /* AppDelegate.swift in Sources */,
 				9E5E2B3F30DD9698E7DA138C /* HomeViewController.swift in Sources */,
+				EDBEC78E28C0AAF0008F1C86 /* User.swift in Sources */,
+				EDBEC78A28C0A5F2008F1C86 /* HomeAPIProvider.swift in Sources */,
+				EDBEC78B28C0A5F5008F1C86 /* ProviderProtocol.swift in Sources */,
 				19244A5A2D0FE893C8DED1CC /* HomeViewReactor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -524,6 +556,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B8F29F0ED90A533AB1AEC24 /* HomeTests.swift in Sources */,
+				EDBEC78428C09154008F1C86 /* HomeAPITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -532,6 +565,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				063E68E24089856E4C562165 /* HomeTests.swift in Sources */,
+				EDBEC78528C09154008F1C86 /* HomeAPITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -540,9 +574,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEA111126170BDAFF89576D1 /* Assets+HomeDemoApp.swift in Sources */,
+				EDBEC78628C091FC008F1C86 /* HomeAPI.swift in Sources */,
 				F58777796E3F19C07E84AE1F /* Bundle+HomeDemoApp.swift in Sources */,
 				A3E300F5BBE00A04896CD9CB /* AppDelegate.swift in Sources */,
 				33C7D7E0FD90E0B5B90DE5B4 /* HomeViewController.swift in Sources */,
+				EDBEC78F28C0AAF0008F1C86 /* User.swift in Sources */,
+				EDBEC78728C09200008F1C86 /* HomeAPIProvider.swift in Sources */,
+				EDBEC78828C09202008F1C86 /* ProviderProtocol.swift in Sources */,
 				E53ED442D64EA80FE8AB4D7C /* HomeViewReactor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -641,11 +679,7 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/Dependencies/SwiftPackageManager/.build/checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchExceptionSupport.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = (
-					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/Dependencies/SwiftPackageManager/.build/checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchExceptionSupport.modulemap",
-				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../Tuist/Dependencies/SwiftPackageManager/.build/checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchExceptionSupport.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = team.io.Tests;
 				PRODUCT_NAME = HomeDemoAppTests;
 				SDKROOT = iphoneos;
@@ -731,11 +765,7 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/Dependencies/SwiftPackageManager/.build/checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchExceptionSupport.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = (
-					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/Dependencies/SwiftPackageManager/.build/checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchExceptionSupport.modulemap",
-				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../Tuist/Dependencies/SwiftPackageManager/.build/checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchExceptionSupport.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = team.io.Tests;
 				PRODUCT_NAME = HomeDemoAppTests;
 				SDKROOT = iphoneos;
@@ -818,11 +848,7 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/Dependencies/SwiftPackageManager/.build/checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchExceptionSupport.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = (
-					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/Dependencies/SwiftPackageManager/.build/checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchExceptionSupport.modulemap",
-				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../Tuist/Dependencies/SwiftPackageManager/.build/checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchExceptionSupport.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = team.io.HomeTests;
 				PRODUCT_NAME = HomeTests;
 				SDKROOT = iphoneos;
@@ -847,11 +873,7 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/Dependencies/SwiftPackageManager/.build/checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchExceptionSupport.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = (
-					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/Dependencies/SwiftPackageManager/.build/checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchExceptionSupport.modulemap",
-				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../Tuist/Dependencies/SwiftPackageManager/.build/checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchExceptionSupport.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = team.io.HomeTests;
 				PRODUCT_NAME = HomeTests;
 				SDKROOT = iphoneos;
