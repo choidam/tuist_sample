@@ -18,7 +18,6 @@
 		20EFED284E1C0ECE68804B29 /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1A0234CC4AB05E3268BBB06 /* RxTest.framework */; platformFilter = ios; };
 		269DAC6E999F4D87706612D6 /* Home.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9290645AFD421A6E8E0A3C77 /* Home.framework */; platformFilter = ios; };
 		2B8F29F0ED90A533AB1AEC24 /* HomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADBDBCE22FDE304B4127596 /* HomeTests.swift */; };
-		2D989D8A924FFAF005ADEBE5 /* HomeAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EEB4DCBF497BDDBB555278 /* HomeAPITests.swift */; };
 		33C7D7E0FD90E0B5B90DE5B4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAFEFB4CCEB4FBFFF16CA05 /* HomeViewController.swift */; };
 		35445947DD0F492C87C43413 /* ProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0E1AD6493354FDD47E304C /* ProviderProtocol.swift */; };
 		36D4C770B139E8D468BEF706 /* RxNimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4298645DB743A77813E88368 /* RxNimble.framework */; platformFilter = ios; };
@@ -61,7 +60,6 @@
 		C180B0DD326057098CA31E3C /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AC33FA1CBE648EA8E368396 /* RxSwift.framework */; platformFilter = ios; };
 		C3CF772E6BC77F1C552A8C1A /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20F8FDE75AA4AE6596EC8924 /* RxCocoa.framework */; platformFilter = ios; };
 		C844115AE69692C268125FB8 /* RxNimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4298645DB743A77813E88368 /* RxNimble.framework */; platformFilter = ios; };
-		C8DD0C0BEB8CDF7AFD3EB9FC /* HomeAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EEB4DCBF497BDDBB555278 /* HomeAPITests.swift */; };
 		CE37FCEB8550E970E2019A69 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D96595CDA3180A94B700DF7 /* User.swift */; };
 		CEA111126170BDAFF89576D1 /* Assets+HomeDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDDACE0E27F6C40EC248B54 /* Assets+HomeDemoApp.swift */; };
 		D2FD3E19240B3545AA17E7C2 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24561330F07D521594459A6A /* RxBlocking.framework */; platformFilter = ios; };
@@ -189,7 +187,6 @@
 		9D1EE48DA2405FA422E8CB01 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		B1A0234CC4AB05E3268BBB06 /* RxTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2A275D4BF28BB5F7806F384 /* CwlCatchExceptionSupport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CwlCatchExceptionSupport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9EEB4DCBF497BDDBB555278 /* HomeAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAPITests.swift; sourceTree = "<group>"; };
 		B9FB11E9C0BBE6CD5E87883B /* Then.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Then.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CADBDBCE22FDE304B4127596 /* HomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTests.swift; sourceTree = "<group>"; };
 		CDF05FA7019805A4782C5B7B /* ReactorKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactorKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -298,7 +295,6 @@
 		400DC7E225B26D6ADA5EE8F1 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				B9EEB4DCBF497BDDBB555278 /* HomeAPITests.swift */,
 				CADBDBCE22FDE304B4127596 /* HomeTests.swift */,
 			);
 			path = Tests;
@@ -559,7 +555,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D989D8A924FFAF005ADEBE5 /* HomeAPITests.swift in Sources */,
 				2B8F29F0ED90A533AB1AEC24 /* HomeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -568,7 +563,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8DD0C0BEB8CDF7AFD3EB9FC /* HomeAPITests.swift in Sources */,
 				063E68E24089856E4C562165 /* HomeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
