@@ -9,16 +9,18 @@
 import Moya
 import RxSwift
 
-//class HomeAPIProvider: ProviderProtocol {
-//
-//    typealias T = HomeAPI
-//    var provider: MoyaProvider<HomeAPI>
-//
-//    required init(isStub: Bool = false, sampleStatusCode: Int = 200, customEndpointClosure: ((T) -> Endpoint)? = nil) {
-//        provider = Self.consProvider(isStub, sampleStatusCode, customEndpointClosure)
-//    }
-//
-//    func fetchRandomJoke() -> Single<Joke> {
-//        return request(type: Joke.self, atKeyPath: "value", target: .getUser)
-//    }
-//}
+class HomeAPIProvider: ProviderProtocol {
+
+    typealias T = HomeAPI
+    var provider: MoyaProvider<HomeAPI>
+
+    required init(isStub: Bool = false, sampleStatusCode: Int = 200, customEndpointClosure: ((T) -> Endpoint)? = nil) {
+        provider = Self.consProvider(isStub, sampleStatusCode, customEndpointClosure)
+    }
+
+    func fetchUser() -> Single<User> {
+        return request(type: User.self, atKeyPath: "value", target: .getUser)
+    }
+}
+
+

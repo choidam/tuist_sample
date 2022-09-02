@@ -50,14 +50,14 @@ extension HomeAPI: TargetType {
         case .getUser:
             return Data(
                 """
-                        {
-                            "type": "success",
-                            "value": {
-                                "id": 20,
-                                "name": "김김김김김김김ㄱ"
-                                }
+                    {
+                        "type": "success",
+                        "value": {
+                            "id": 20,
+                            "name": "김김김김김김김ㄱ"
                         }
-                        """.utf8
+                    }
+                """.utf8
                 )
         }
     }
