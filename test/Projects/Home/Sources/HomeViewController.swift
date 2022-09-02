@@ -61,7 +61,8 @@ open class HomeViewController: UIViewController {
 
 extension HomeViewController {
     public static func create() -> HomeViewController? {
-        let homeReactor = HomeViewReactor()
+        let homeProvider = HomeAPIProvider(isStub: true)
+        let homeReactor = HomeViewReactor(homeProvider: homeProvider)
         let homeVC = HomeViewController(reactor: homeReactor)
         
         return homeVC

@@ -26,7 +26,6 @@ class HomeAPITests: XCTestCase {
         provider = HomeAPIProvider(isStub: true)
         scheduler = TestScheduler(initialClock: 0)
         disposeBag = DisposeBag()
-        
     }
     
     func test_fetchRandomJokes_success() {

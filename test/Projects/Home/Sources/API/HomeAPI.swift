@@ -54,7 +54,7 @@ extension HomeAPI: TargetType {
                         "type": "success",
                         "value": {
                             "id": 20,
-                            "name": "김김김김김김김ㄱ"
+                            "name": "김김김"
                         }
                     }
                 """.utf8

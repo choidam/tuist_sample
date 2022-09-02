@@ -19,7 +19,9 @@ class HomeAPIProvider: ProviderProtocol {
     }
 
     func fetchUser() -> Single<User> {
-        return request(type: User.self, atKeyPath: "value", target: .getUser)
+        return request(type: User.self,
+                       atKeyPath: "value",
+                       target: .getUser)
     }
 }
 

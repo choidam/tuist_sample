@@ -22,19 +22,22 @@ final class HomeViewReactor: Reactor {
         case plus
         case minus
         
-        case getUser
+        case getUser(Single<User>)
     }
     
     struct State {
         var count: Int = 0
+        
+        var user: User?
     }
     
     var initialState: State
     
-    fileprivate let stubProvider = MoyaProvider<HomeAPI>(stubClosure: MoyaProvider.delayedStub(0))
+    private let homeProvider: HomeAPIProvider!
     
-    init() {
+    init(homeProvider: HomeAPIProvider) {
         self.initialState = State()
+        self.homeProvider = homeProvider
         
         action.onNext(.getUser)
     }
@@ -46,7 +49,7 @@ final class HomeViewReactor: Reactor {
         case .minus:
             return .just(.minus)
         case .getUser:
-            return .just(.getUser)
+            return .just(.getUser(homeProvider.fetchUser()))
         }
     }
     
@@ -58,25 +61,13 @@ final class HomeViewReactor: Reactor {
             state.count += 1
         case .minus:
             state.count -= 1
-        case .getUser:
-            stubProvider.request(.getUser) { result in
-                switch result {
-                case .success(let response):
-                    do {
-                        let decoder = JSONDecoder()
-                        let decodedData = try decoder.decode(UserResponse.self, from: response.data)
-                        let user = decodedData.value
-                        
-                        print("user: \(user)")
-                    }
-                    catch(let error) {
-                        print("decode erorr: \(error)")
-                    }
-                case .failure(let error):
-                    print("error: \(error)")
-                }
-            }
-            
+        case .getUser(let response):
+            response.subscribe(onSuccess: { user in
+                state.user = user
+                print("sample user: \(user)")
+            }, onFailure: { _ in
+                print("response fail")
+            })
         }
         
         return state
