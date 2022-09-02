@@ -23,7 +23,8 @@ class HomeTests: XCTestCase {
     private var disposeBag: DisposeBag!
 
     override func setUp() {
-        reactor = HomeViewReactor()
+        let homeProvider = HomeAPIProvider(isStub: true)
+        reactor = HomeViewReactor(homeProvider: homeProvider)
         scheduler = TestScheduler(initialClock: 0)
         disposeBag = DisposeBag()
     }
@@ -55,4 +56,19 @@ class HomeTests: XCTestCase {
                 .next(30, 2)
             ]))
     }
+    
+    func testAPI() throws {
+        scheduler.createColdObservable([
+            .next(10, HomeViewReactor.Action.getUser)
+        ])
+        .bind(to: reactor.action)
+        .disposed(by: disposeBag)
+        
+        expect(self.reactor.state.compactMap { $0.user })
+            .events(scheduler: scheduler, disposeBag: disposeBag)
+            .to(equal([
+                .next(10, User(id: 20, name: "김김김"))
+            ]))
+    }
+
 }

@@ -19,34 +19,23 @@ class HomeAPITests: XCTestCase {
     // MARK: Property
     
     private var provider: HomeAPIProvider!
+    private var reactor: HomeViewReactor!
     private var scheduler: TestScheduler!
     private var disposeBag: DisposeBag!
     
     override func setUp() {
         provider = HomeAPIProvider(isStub: true)
+        reactor = HomeViewReactor(homeProvider: provider)
         scheduler = TestScheduler(initialClock: 0)
         disposeBag = DisposeBag()
     }
     
-    func test_fetchRandomJokes_success() {
+    func test_fetch() {
+        
         let expectation = XCTestExpectation()
         let response = try? JSONDecoder().decode(UserResponse.self,
                                                  from: HomeAPI.getUser.sampleData)
             
-        
-//        let expectation = XCTestExpectation()
-//
-//        let expectedJoke = JokesAPI
-//            .randomJokes("Gro", "Hong", ["nerdy"])
-//            .sampleDecodable(JokeReponse.self)?.value
-//
-//        sut.fetchRandomJoke(firstName: "Gro", lastName: "Hong", categories: ["nerdy"])
-//            .subscribe(onSuccess: { joke in
-//                XCTAssertEqual(expectedJoke?.joke, joke.joke)
-//                expectation.fulfill()
-//            })
-//            .dispose()
-//        wait(for: [expectation], timeout: 2.0)
            
     }
 }

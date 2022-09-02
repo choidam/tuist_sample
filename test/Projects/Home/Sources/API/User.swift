@@ -13,7 +13,7 @@ struct UserResponse: Decodable {
     let value: User
 }
 
-struct User: Decodable {
+struct User: Decodable, Equatable {
     let id: Int
     let name: String
 }

@@ -38,8 +38,6 @@ final class HomeViewReactor: Reactor {
     init(homeProvider: HomeAPIProvider) {
         self.initialState = State()
         self.homeProvider = homeProvider
-        
-        action.onNext(.getUser)
     }
     
     func mutate(action: Action) -> Observable<Mutation> {
