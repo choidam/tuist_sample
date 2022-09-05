@@ -19,7 +19,10 @@ let dependencies = Dependencies(
          ],
          productTypes: [
             "ReactorKit": .framework,
-            "Then": .framework
+            "Then": .framework,
+            "Moya": .framework,
+            "RxMoya": .framework,
+            "Alamofire": .framework,
          ]
      ),
      platforms: [.iOS]

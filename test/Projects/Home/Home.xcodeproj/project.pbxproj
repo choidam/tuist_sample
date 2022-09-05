@@ -3,13 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		063E68E24089856E4C562165 /* HomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADBDBCE22FDE304B4127596 /* HomeTests.swift */; };
 		07A2940EBD6DEEE4528E0A34 /* CwlCatchExceptionSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2A275D4BF28BB5F7806F384 /* CwlCatchExceptionSupport.framework */; platformFilter = ios; };
-		09C5D740E36CED27F2357AEA /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D1EE48DA2405FA422E8CB01 /* CFNetwork.framework */; };
 		0CD87B661B48F574F7A9FC3B /* ReactorKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CDF05FA7019805A4782C5B7B /* ReactorKit.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		12D179C64C78BF182DD92F94 /* CwlMachBadInstructionHandler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C9AFD2FA9FF5C2577E71E03 /* CwlMachBadInstructionHandler.framework */; platformFilter = ios; };
 		17541D9BBB3EF49648EC9C0A /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45853054D615EC22DCAE768B /* SnapKit.framework */; platformFilter = ios; };
@@ -27,6 +26,7 @@
 		3D9260E39E661C61EE79A18C /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24561330F07D521594459A6A /* RxBlocking.framework */; platformFilter = ios; };
 		4809699B5250B5C69D9AEE8C /* Assets+Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2926176AE0EBF649DE41AE5E /* Assets+Home.swift */; };
 		4BDC7C9C1C995994059344E4 /* CwlPosixPreconditionTesting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E2D4574EDA014598B0EA356 /* CwlPosixPreconditionTesting.framework */; platformFilter = ios; };
+		4EAE74C8F92C1E2D6279CBDD /* Moya.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E45A37D9EB117BE8E26CCEAF /* Moya.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4F46EAC21F40AB2CD1A04FDC /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AC33FA1CBE648EA8E368396 /* RxSwift.framework */; platformFilter = ios; };
 		51858D8AAB78FF111E8BF633 /* CwlPreconditionTesting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 260EEB1B86B01DA6A81AB07A /* CwlPreconditionTesting.framework */; platformFilter = ios; };
 		5AC0F2E5ECD466C6103594C1 /* ProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0E1AD6493354FDD47E304C /* ProviderProtocol.swift */; };
@@ -34,7 +34,6 @@
 		5EB925C56BBC2152A02DEFA7 /* ReactorKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDF05FA7019805A4782C5B7B /* ReactorKit.framework */; platformFilter = ios; };
 		639AF2B0BD002A5C9C11ADFF /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 20F8FDE75AA4AE6596EC8924 /* RxCocoa.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		65798E27ACC3EAE0D5E0FE25 /* Asset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 420FD2BF9D05BBEC40B1CDDE /* Asset.xcassets */; };
-		6609608E1BAF9D6AB023A1E0 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1A5FAB7ADFFA55459CCD3E /* Alamofire.framework */; platformFilter = ios; };
 		715FD3F84A0B8DA19F5E06E1 /* CwlCatchExceptionSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2A275D4BF28BB5F7806F384 /* CwlCatchExceptionSupport.framework */; platformFilter = ios; };
 		7C5BFDD655C01B45528B2AF8 /* RxTest.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B1A0234CC4AB05E3268BBB06 /* RxTest.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		80E41B22BD46A07B146BD1E7 /* Then.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B9FB11E9C0BBE6CD5E87883B /* Then.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -65,9 +64,11 @@
 		D2FD3E19240B3545AA17E7C2 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24561330F07D521594459A6A /* RxBlocking.framework */; platformFilter = ios; };
 		D4A49C22EC46A6289670A9BA /* CommonUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 038A45AFD430A8988F107203 /* CommonUI.framework */; platformFilter = ios; };
 		D57FDE5B6D33D593026307B3 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AC33FA1CBE648EA8E368396 /* RxSwift.framework */; platformFilter = ios; };
+		D760DBF6223F2F0A375DDD9E /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1A5FAB7ADFFA55459CCD3E /* Alamofire.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DD303501E5BF6C4AB355816A /* RxMoya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86CBE6ABD83F406A81DA73C8 /* RxMoya.framework */; platformFilter = ios; };
 		DE26CDDF18BE558EA4CE9C6C /* HomeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BE20648817D15B977A8900 /* HomeAPI.swift */; };
 		E0D0A89C3DADDF1557E06596 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D96595CDA3180A94B700DF7 /* User.swift */; };
+		E2B614582E69571FDB60CA91 /* RxMoya.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 86CBE6ABD83F406A81DA73C8 /* RxMoya.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E4BA0C3F112DAF36AC00DAA4 /* HomeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BE20648817D15B977A8900 /* HomeAPI.swift */; };
 		E53ED442D64EA80FE8AB4D7C /* HomeViewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6798B3D951E21BDB22AB3252 /* HomeViewReactor.swift */; };
 		E9BDF530EAC8B507C6A2E91B /* RxBlocking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 24561330F07D521594459A6A /* RxBlocking.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -105,11 +106,14 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				D760DBF6223F2F0A375DDD9E /* Alamofire.framework in Embed Frameworks */,
 				39A2A4D7BE7C82D7892D0137 /* CommonUI.framework in Embed Frameworks */,
 				A815A534E7BEA040621ED045 /* Home.framework in Embed Frameworks */,
+				4EAE74C8F92C1E2D6279CBDD /* Moya.framework in Embed Frameworks */,
 				0CD87B661B48F574F7A9FC3B /* ReactorKit.framework in Embed Frameworks */,
 				639AF2B0BD002A5C9C11ADFF /* RxCocoa.framework in Embed Frameworks */,
 				17C50ADB788C6CE804DC662F /* RxCocoaRuntime.framework in Embed Frameworks */,
+				E2B614582E69571FDB60CA91 /* RxMoya.framework in Embed Frameworks */,
 				8AE7857AD1043B235061C11C /* RxRelay.framework in Embed Frameworks */,
 				816C8F8B926FAB1CA840A45E /* RxSwift.framework in Embed Frameworks */,
 				9B59FF3F69C633B26064301F /* SnapKit.framework in Embed Frameworks */,
@@ -184,7 +188,6 @@
 		8A12ADDAFFEAE27230C256C7 /* HomeDemoAppTests.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = HomeDemoAppTests.plist; sourceTree = "<group>"; };
 		9290645AFD421A6E8E0A3C77 /* Home.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Home.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9857DDFD57AE37470690AC80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9D1EE48DA2405FA422E8CB01 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		B1A0234CC4AB05E3268BBB06 /* RxTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2A275D4BF28BB5F7806F384 /* CwlCatchExceptionSupport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CwlCatchExceptionSupport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9FB11E9C0BBE6CD5E87883B /* Then.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Then.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -219,8 +222,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09C5D740E36CED27F2357AEA /* CFNetwork.framework in Frameworks */,
-				6609608E1BAF9D6AB023A1E0 /* Alamofire.framework in Frameworks */,
 				D4A49C22EC46A6289670A9BA /* CommonUI.framework in Frameworks */,
 				AA1A51C94BF526002F878644 /* Moya.framework in Frameworks */,
 				5EB925C56BBC2152A02DEFA7 /* ReactorKit.framework in Frameworks */,
@@ -303,7 +304,6 @@
 		440337F7B58BC84FCBC5A96E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9D1EE48DA2405FA422E8CB01 /* CFNetwork.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -493,10 +493,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				52E844066D197E3B81FA748F /* Home */,
-				27329F91906B66B8A2D755D1 /* HomeDemoApp */,
-				D46DE6B0B5F2A6D274B7D0CF /* HomeDemoAppTests */,
 				AF31213DA71B06E9B09EA3F0 /* HomeTests */,
+				27329F91906B66B8A2D755D1 /* HomeDemoApp */,
+				52E844066D197E3B81FA748F /* Home */,
+				D46DE6B0B5F2A6D274B7D0CF /* HomeDemoAppTests */,
 			);
 		};
 /* End PBXProject section */
@@ -677,7 +677,11 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/Dependencies/SwiftPackageManager/.build/checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchExceptionSupport.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../Tuist/Dependencies/SwiftPackageManager/.build/checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchExceptionSupport.modulemap";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/Dependencies/SwiftPackageManager/.build/checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchExceptionSupport.modulemap",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = team.io.Tests;
 				PRODUCT_NAME = HomeDemoAppTests;
 				SDKROOT = iphoneos;
@@ -763,7 +767,11 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/Dependencies/SwiftPackageManager/.build/checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchExceptionSupport.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../Tuist/Dependencies/SwiftPackageManager/.build/checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchExceptionSupport.modulemap";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/Dependencies/SwiftPackageManager/.build/checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchExceptionSupport.modulemap",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = team.io.Tests;
 				PRODUCT_NAME = HomeDemoAppTests;
 				SDKROOT = iphoneos;
@@ -846,7 +854,11 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/Dependencies/SwiftPackageManager/.build/checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchExceptionSupport.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../Tuist/Dependencies/SwiftPackageManager/.build/checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchExceptionSupport.modulemap";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/Dependencies/SwiftPackageManager/.build/checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchExceptionSupport.modulemap",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = team.io.HomeTests;
 				PRODUCT_NAME = HomeTests;
 				SDKROOT = iphoneos;
@@ -871,7 +883,11 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/Dependencies/SwiftPackageManager/.build/checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchExceptionSupport.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../Tuist/Dependencies/SwiftPackageManager/.build/checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchExceptionSupport.modulemap";
+				OTHER_SWIFT_FLAGS = (
+					"$(inherited)",
+					"-Xcc",
+					"-fmodule-map-file=$(SRCROOT)/../../Tuist/Dependencies/SwiftPackageManager/.build/checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchExceptionSupport.modulemap",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = team.io.HomeTests;
 				PRODUCT_NAME = HomeTests;
 				SDKROOT = iphoneos;
