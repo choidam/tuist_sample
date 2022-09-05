@@ -24,6 +24,7 @@ let project = Project.app(name: projectName,
                             .external(name: "RxSwift"),
                             .external(name: "RxCocoa"),
                             .external(name: "Moya"),
+                            .external(name: "RxMoya"),
                             .project(target: "Home", path: .relativeToCurrentFile("../Home")),
                             .project(target: "MyPage", path: .relativeToCurrentFile("../MyPage")),
                             .project(target: "CommonUI", path: .relativeToCurrentFile("../CommonUI"))

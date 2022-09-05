@@ -449,8 +449,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A5635A622DF6B3EBEBA79591 /* MyPageDemoAppTests */,
 				6DD2D9BE112D41AA7050E221 /* MyPage */,
+				A5635A622DF6B3EBEBA79591 /* MyPageDemoAppTests */,
 				4155C6F8066044A25C32DD93 /* MyPageDemoApp */,
 				31B2BFCA7BCA0EF8AE63C984 /* MyPageTests */,
 			);

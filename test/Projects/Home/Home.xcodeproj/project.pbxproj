@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,6 +19,7 @@
 		269DAC6E999F4D87706612D6 /* Home.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9290645AFD421A6E8E0A3C77 /* Home.framework */; platformFilter = ios; };
 		2B8F29F0ED90A533AB1AEC24 /* HomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADBDBCE22FDE304B4127596 /* HomeTests.swift */; };
 		33C7D7E0FD90E0B5B90DE5B4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAFEFB4CCEB4FBFFF16CA05 /* HomeViewController.swift */; };
+		35445947DD0F492C87C43413 /* ProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0E1AD6493354FDD47E304C /* ProviderProtocol.swift */; };
 		36D4C770B139E8D468BEF706 /* RxNimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4298645DB743A77813E88368 /* RxNimble.framework */; platformFilter = ios; };
 		388B993C5DB242D6C11A9648 /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1A0234CC4AB05E3268BBB06 /* RxTest.framework */; platformFilter = ios; };
 		39A2A4D7BE7C82D7892D0137 /* CommonUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 038A45AFD430A8988F107203 /* CommonUI.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -28,6 +29,7 @@
 		4BDC7C9C1C995994059344E4 /* CwlPosixPreconditionTesting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E2D4574EDA014598B0EA356 /* CwlPosixPreconditionTesting.framework */; platformFilter = ios; };
 		4F46EAC21F40AB2CD1A04FDC /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AC33FA1CBE648EA8E368396 /* RxSwift.framework */; platformFilter = ios; };
 		51858D8AAB78FF111E8BF633 /* CwlPreconditionTesting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 260EEB1B86B01DA6A81AB07A /* CwlPreconditionTesting.framework */; platformFilter = ios; };
+		5AC0F2E5ECD466C6103594C1 /* ProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0E1AD6493354FDD47E304C /* ProviderProtocol.swift */; };
 		5C60EADD2EE58CDE8C6FF2C1 /* Then.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9FB11E9C0BBE6CD5E87883B /* Then.framework */; platformFilter = ios; };
 		5EB925C56BBC2152A02DEFA7 /* ReactorKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDF05FA7019805A4782C5B7B /* ReactorKit.framework */; platformFilter = ios; };
 		639AF2B0BD002A5C9C11ADFF /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 20F8FDE75AA4AE6596EC8924 /* RxCocoa.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -39,6 +41,8 @@
 		816C8F8B926FAB1CA840A45E /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7AC33FA1CBE648EA8E368396 /* RxSwift.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		866CB6C7EB9033E940FB7448 /* CwlPosixPreconditionTesting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E2D4574EDA014598B0EA356 /* CwlPosixPreconditionTesting.framework */; platformFilter = ios; };
 		8AE7857AD1043B235061C11C /* RxRelay.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 17AA2AA8ECCBFBE96DCDBEDC /* RxRelay.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8B73B354C47AFCBCE4E7A180 /* HomeAPIProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE85C80A6A59847953B90DD2 /* HomeAPIProvider.swift */; };
+		8D47C4D034E929BFC0C5E2D4 /* HomeAPIProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE85C80A6A59847953B90DD2 /* HomeAPIProvider.swift */; };
 		94029276C56460E16AE4456E /* Home.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9290645AFD421A6E8E0A3C77 /* Home.framework */; platformFilter = ios; };
 		9571CF6599650B334E248836 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B7677109108C714F33048E /* Nimble.framework */; platformFilter = ios; };
 		9B59FF3F69C633B26064301F /* SnapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 45853054D615EC22DCAE768B /* SnapKit.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -56,10 +60,15 @@
 		C180B0DD326057098CA31E3C /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AC33FA1CBE648EA8E368396 /* RxSwift.framework */; platformFilter = ios; };
 		C3CF772E6BC77F1C552A8C1A /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20F8FDE75AA4AE6596EC8924 /* RxCocoa.framework */; platformFilter = ios; };
 		C844115AE69692C268125FB8 /* RxNimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4298645DB743A77813E88368 /* RxNimble.framework */; platformFilter = ios; };
+		CE37FCEB8550E970E2019A69 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D96595CDA3180A94B700DF7 /* User.swift */; };
 		CEA111126170BDAFF89576D1 /* Assets+HomeDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDDACE0E27F6C40EC248B54 /* Assets+HomeDemoApp.swift */; };
 		D2FD3E19240B3545AA17E7C2 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24561330F07D521594459A6A /* RxBlocking.framework */; platformFilter = ios; };
 		D4A49C22EC46A6289670A9BA /* CommonUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 038A45AFD430A8988F107203 /* CommonUI.framework */; platformFilter = ios; };
 		D57FDE5B6D33D593026307B3 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AC33FA1CBE648EA8E368396 /* RxSwift.framework */; platformFilter = ios; };
+		DD303501E5BF6C4AB355816A /* RxMoya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86CBE6ABD83F406A81DA73C8 /* RxMoya.framework */; platformFilter = ios; };
+		DE26CDDF18BE558EA4CE9C6C /* HomeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BE20648817D15B977A8900 /* HomeAPI.swift */; };
+		E0D0A89C3DADDF1557E06596 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D96595CDA3180A94B700DF7 /* User.swift */; };
+		E4BA0C3F112DAF36AC00DAA4 /* HomeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BE20648817D15B977A8900 /* HomeAPI.swift */; };
 		E53ED442D64EA80FE8AB4D7C /* HomeViewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6798B3D951E21BDB22AB3252 /* HomeViewReactor.swift */; };
 		E9BDF530EAC8B507C6A2E91B /* RxBlocking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 24561330F07D521594459A6A /* RxBlocking.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F58777796E3F19C07E84AE1F /* Bundle+HomeDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06225A691EAE6B53D3D8D88C /* Bundle+HomeDemoApp.swift */; };
@@ -146,12 +155,15 @@
 /* Begin PBXFileReference section */
 		038A45AFD430A8988F107203 /* CommonUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		06225A691EAE6B53D3D8D88C /* Bundle+HomeDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+HomeDemoApp.swift"; sourceTree = "<group>"; };
+		0D96595CDA3180A94B700DF7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		17AA2AA8ECCBFBE96DCDBEDC /* RxRelay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxRelay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C9AFD2FA9FF5C2577E71E03 /* CwlMachBadInstructionHandler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CwlMachBadInstructionHandler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D0E1AD6493354FDD47E304C /* ProviderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderProtocol.swift; sourceTree = "<group>"; };
 		1E2D4574EDA014598B0EA356 /* CwlPosixPreconditionTesting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CwlPosixPreconditionTesting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		20F8FDE75AA4AE6596EC8924 /* RxCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		24561330F07D521594459A6A /* RxBlocking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxBlocking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		260EEB1B86B01DA6A81AB07A /* CwlPreconditionTesting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CwlPreconditionTesting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28BE20648817D15B977A8900 /* HomeAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAPI.swift; sourceTree = "<group>"; };
 		2926176AE0EBF649DE41AE5E /* Assets+Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Assets+Home.swift"; sourceTree = "<group>"; };
 		3E27707CF3AF39D07540B293 /* HomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		420FD2BF9D05BBEC40B1CDDE /* Asset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Asset.xcassets; sourceTree = "<group>"; };
@@ -168,6 +180,7 @@
 		7AC33FA1CBE648EA8E368396 /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CAFEFB4CCEB4FBFFF16CA05 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		8481C42BF393A954EF52CA44 /* Bundle+Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Home.swift"; sourceTree = "<group>"; };
+		86CBE6ABD83F406A81DA73C8 /* RxMoya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxMoya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A12ADDAFFEAE27230C256C7 /* HomeDemoAppTests.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = HomeDemoAppTests.plist; sourceTree = "<group>"; };
 		9290645AFD421A6E8E0A3C77 /* Home.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Home.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9857DDFD57AE37470690AC80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -177,6 +190,7 @@
 		B9FB11E9C0BBE6CD5E87883B /* Then.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Then.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CADBDBCE22FDE304B4127596 /* HomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTests.swift; sourceTree = "<group>"; };
 		CDF05FA7019805A4782C5B7B /* ReactorKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactorKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE85C80A6A59847953B90DD2 /* HomeAPIProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAPIProvider.swift; sourceTree = "<group>"; };
 		E45A37D9EB117BE8E26CCEAF /* Moya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Moya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC3F84F9CB9590F8FFD68572 /* HomeDemoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeDemoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC9881DBD6B95284DF628CBF /* CwlCatchException.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CwlCatchException.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -211,6 +225,7 @@
 				AA1A51C94BF526002F878644 /* Moya.framework in Frameworks */,
 				5EB925C56BBC2152A02DEFA7 /* ReactorKit.framework in Frameworks */,
 				C3CF772E6BC77F1C552A8C1A /* RxCocoa.framework in Frameworks */,
+				DD303501E5BF6C4AB355816A /* RxMoya.framework in Frameworks */,
 				C180B0DD326057098CA31E3C /* RxSwift.framework in Frameworks */,
 				17541D9BBB3EF49648EC9C0A /* SnapKit.framework in Frameworks */,
 				5C60EADD2EE58CDE8C6FF2C1 /* Then.framework in Frameworks */,
@@ -266,6 +281,7 @@
 				24561330F07D521594459A6A /* RxBlocking.framework */,
 				20F8FDE75AA4AE6596EC8924 /* RxCocoa.framework */,
 				729FA2B03B5F843DDBD257D2 /* RxCocoaRuntime.framework */,
+				86CBE6ABD83F406A81DA73C8 /* RxMoya.framework */,
 				4298645DB743A77813E88368 /* RxNimble.framework */,
 				17AA2AA8ECCBFBE96DCDBEDC /* RxRelay.framework */,
 				7AC33FA1CBE648EA8E368396 /* RxSwift.framework */,
@@ -329,6 +345,17 @@
 			path = Sources;
 			sourceTree = "<group>";
 		};
+		9DA1382A9039998FF59508ED /* API */ = {
+			isa = PBXGroup;
+			children = (
+				28BE20648817D15B977A8900 /* HomeAPI.swift */,
+				DE85C80A6A59847953B90DD2 /* HomeAPIProvider.swift */,
+				1D0E1AD6493354FDD47E304C /* ProviderProtocol.swift */,
+				0D96595CDA3180A94B700DF7 /* User.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 		A0406DFCF5F3BCA58AF39988 /* Project */ = {
 			isa = PBXGroup;
 			children = (
@@ -343,6 +370,7 @@
 		B74810073A3D8A4993EE22B2 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				9DA1382A9039998FF59508ED /* API */,
 				9857DDFD57AE37470690AC80 /* AppDelegate.swift */,
 				7CAFEFB4CCEB4FBFFF16CA05 /* HomeViewController.swift */,
 				6798B3D951E21BDB22AB3252 /* HomeViewReactor.swift */,
@@ -465,10 +493,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AF31213DA71B06E9B09EA3F0 /* HomeTests */,
 				52E844066D197E3B81FA748F /* Home */,
 				27329F91906B66B8A2D755D1 /* HomeDemoApp */,
 				D46DE6B0B5F2A6D274B7D0CF /* HomeDemoAppTests */,
+				AF31213DA71B06E9B09EA3F0 /* HomeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -513,6 +541,10 @@
 			files = (
 				4809699B5250B5C69D9AEE8C /* Assets+Home.swift in Sources */,
 				3CF24369ED0D7818CE43B738 /* Bundle+Home.swift in Sources */,
+				E4BA0C3F112DAF36AC00DAA4 /* HomeAPI.swift in Sources */,
+				8B73B354C47AFCBCE4E7A180 /* HomeAPIProvider.swift in Sources */,
+				35445947DD0F492C87C43413 /* ProviderProtocol.swift in Sources */,
+				CE37FCEB8550E970E2019A69 /* User.swift in Sources */,
 				AC1C088DE20E00BF54D1081E /* AppDelegate.swift in Sources */,
 				9E5E2B3F30DD9698E7DA138C /* HomeViewController.swift in Sources */,
 				19244A5A2D0FE893C8DED1CC /* HomeViewReactor.swift in Sources */,
@@ -541,6 +573,10 @@
 			files = (
 				CEA111126170BDAFF89576D1 /* Assets+HomeDemoApp.swift in Sources */,
 				F58777796E3F19C07E84AE1F /* Bundle+HomeDemoApp.swift in Sources */,
+				DE26CDDF18BE558EA4CE9C6C /* HomeAPI.swift in Sources */,
+				8D47C4D034E929BFC0C5E2D4 /* HomeAPIProvider.swift in Sources */,
+				5AC0F2E5ECD466C6103594C1 /* ProviderProtocol.swift in Sources */,
+				E0D0A89C3DADDF1557E06596 /* User.swift in Sources */,
 				A3E300F5BBE00A04896CD9CB /* AppDelegate.swift in Sources */,
 				33C7D7E0FD90E0B5B90DE5B4 /* HomeViewController.swift in Sources */,
 				E53ED442D64EA80FE8AB4D7C /* HomeViewReactor.swift in Sources */,
@@ -641,11 +677,7 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/Dependencies/SwiftPackageManager/.build/checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchExceptionSupport.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = (
-					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/Dependencies/SwiftPackageManager/.build/checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchExceptionSupport.modulemap",
-				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../Tuist/Dependencies/SwiftPackageManager/.build/checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchExceptionSupport.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = team.io.Tests;
 				PRODUCT_NAME = HomeDemoAppTests;
 				SDKROOT = iphoneos;
@@ -731,11 +763,7 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/Dependencies/SwiftPackageManager/.build/checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchExceptionSupport.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = (
-					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/Dependencies/SwiftPackageManager/.build/checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchExceptionSupport.modulemap",
-				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../Tuist/Dependencies/SwiftPackageManager/.build/checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchExceptionSupport.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = team.io.Tests;
 				PRODUCT_NAME = HomeDemoAppTests;
 				SDKROOT = iphoneos;
@@ -818,11 +846,7 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/Dependencies/SwiftPackageManager/.build/checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchExceptionSupport.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = (
-					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/Dependencies/SwiftPackageManager/.build/checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchExceptionSupport.modulemap",
-				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../Tuist/Dependencies/SwiftPackageManager/.build/checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchExceptionSupport.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = team.io.HomeTests;
 				PRODUCT_NAME = HomeTests;
 				SDKROOT = iphoneos;
@@ -847,11 +871,7 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/Dependencies/SwiftPackageManager/.build/checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchExceptionSupport.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = (
-					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/Dependencies/SwiftPackageManager/.build/checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchExceptionSupport.modulemap",
-				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../Tuist/Dependencies/SwiftPackageManager/.build/checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchExceptionSupport.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = team.io.HomeTests;
 				PRODUCT_NAME = HomeTests;
 				SDKROOT = iphoneos;
