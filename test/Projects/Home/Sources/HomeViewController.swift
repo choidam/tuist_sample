@@ -36,6 +36,12 @@ open class HomeViewController: UIViewController {
         $0.textColor = .black
     }
     
+    private let apiButton = UIButton().then {
+        $0.setTitle("git", for: .normal)
+        $0.titleLabel?.font = CommonUIFontFamily.Pretendard.bold.font(size: 20)
+        $0.setTitleColor(CommonUIAsset.black.color, for: .normal)
+    }
+    
     // MARK: Property
     
     private let reactor: HomeViewReactor
@@ -62,7 +68,8 @@ open class HomeViewController: UIViewController {
 extension HomeViewController {
     public static func create() -> HomeViewController? {
         let homeProvider = HomeAPIProvider(isStub: true)
-        let homeReactor = HomeViewReactor(homeProvider: homeProvider)
+        let gitApiService = GitApiService<NetworkProvider<GithubAPI>>(provider: NetworkProvider<GithubAPI>())
+        let homeReactor = HomeViewReactor(homeProvider: homeProvider, gitApiService: gitApiService)
         let homeVC = HomeViewController(reactor: homeReactor)
         
         return homeVC
@@ -72,10 +79,10 @@ extension HomeViewController {
         view.addSubview(plusButton)
         view.addSubview(minusButton)
         view.addSubview(countLabel)
+        view.addSubview(apiButton)
     }
     
     private func initLayout(){
-        view.backgroundColor = CommonUIAsset.commonYellow.color
         addViews()
         
         plusButton.snp.makeConstraints {
@@ -90,6 +97,11 @@ extension HomeViewController {
         
         countLabel.snp.makeConstraints {
             $0.top.equalTo(minusButton.snp.bottom).offset(100)
+            $0.centerX.equalToSuperview()
+        }
+        
+        apiButton.snp.makeConstraints {
+            $0.top.equalTo(countLabel.snp.bottom).offset(100)
             $0.centerX.equalToSuperview()
         }
     }

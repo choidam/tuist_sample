@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		17541D9BBB3EF49648EC9C0A /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45853054D615EC22DCAE768B /* SnapKit.framework */; platformFilter = ios; };
 		17C50ADB788C6CE804DC662F /* RxCocoaRuntime.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 729FA2B03B5F843DDBD257D2 /* RxCocoaRuntime.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		19244A5A2D0FE893C8DED1CC /* HomeViewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6798B3D951E21BDB22AB3252 /* HomeViewReactor.swift */; };
+		20DD5A013CCF7FE352DD2F0C /* TuistBundle+HomeDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11E3A27BC6B4A51074F7540 /* TuistBundle+HomeDemoApp.swift */; };
 		20EFED284E1C0ECE68804B29 /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1A0234CC4AB05E3268BBB06 /* RxTest.framework */; platformFilter = ios; };
 		269DAC6E999F4D87706612D6 /* Home.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9290645AFD421A6E8E0A3C77 /* Home.framework */; platformFilter = ios; };
 		2B8F29F0ED90A533AB1AEC24 /* HomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADBDBCE22FDE304B4127596 /* HomeTests.swift */; };
@@ -22,9 +23,7 @@
 		36D4C770B139E8D468BEF706 /* RxNimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4298645DB743A77813E88368 /* RxNimble.framework */; platformFilter = ios; };
 		388B993C5DB242D6C11A9648 /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1A0234CC4AB05E3268BBB06 /* RxTest.framework */; platformFilter = ios; };
 		39A2A4D7BE7C82D7892D0137 /* CommonUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 038A45AFD430A8988F107203 /* CommonUI.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		3CF24369ED0D7818CE43B738 /* Bundle+Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8481C42BF393A954EF52CA44 /* Bundle+Home.swift */; };
 		3D9260E39E661C61EE79A18C /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24561330F07D521594459A6A /* RxBlocking.framework */; platformFilter = ios; };
-		4809699B5250B5C69D9AEE8C /* Assets+Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2926176AE0EBF649DE41AE5E /* Assets+Home.swift */; };
 		4BDC7C9C1C995994059344E4 /* CwlPosixPreconditionTesting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E2D4574EDA014598B0EA356 /* CwlPosixPreconditionTesting.framework */; platformFilter = ios; };
 		4EAE74C8F92C1E2D6279CBDD /* Moya.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E45A37D9EB117BE8E26CCEAF /* Moya.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4F46EAC21F40AB2CD1A04FDC /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AC33FA1CBE648EA8E368396 /* RxSwift.framework */; platformFilter = ios; };
@@ -42,6 +41,7 @@
 		8AE7857AD1043B235061C11C /* RxRelay.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 17AA2AA8ECCBFBE96DCDBEDC /* RxRelay.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8B73B354C47AFCBCE4E7A180 /* HomeAPIProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE85C80A6A59847953B90DD2 /* HomeAPIProvider.swift */; };
 		8D47C4D034E929BFC0C5E2D4 /* HomeAPIProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE85C80A6A59847953B90DD2 /* HomeAPIProvider.swift */; };
+		910EB185F843011C7F9A9B5F /* TuistBundle+Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA691B25CAE8B0E1E65FD98 /* TuistBundle+Home.swift */; };
 		94029276C56460E16AE4456E /* Home.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9290645AFD421A6E8E0A3C77 /* Home.framework */; platformFilter = ios; };
 		9571CF6599650B334E248836 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B7677109108C714F33048E /* Nimble.framework */; platformFilter = ios; };
 		9B59FF3F69C633B26064301F /* SnapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 45853054D615EC22DCAE768B /* SnapKit.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -60,19 +60,33 @@
 		C3CF772E6BC77F1C552A8C1A /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20F8FDE75AA4AE6596EC8924 /* RxCocoa.framework */; platformFilter = ios; };
 		C844115AE69692C268125FB8 /* RxNimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4298645DB743A77813E88368 /* RxNimble.framework */; platformFilter = ios; };
 		CE37FCEB8550E970E2019A69 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D96595CDA3180A94B700DF7 /* User.swift */; };
-		CEA111126170BDAFF89576D1 /* Assets+HomeDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDDACE0E27F6C40EC248B54 /* Assets+HomeDemoApp.swift */; };
 		D2FD3E19240B3545AA17E7C2 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24561330F07D521594459A6A /* RxBlocking.framework */; platformFilter = ios; };
 		D4A49C22EC46A6289670A9BA /* CommonUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 038A45AFD430A8988F107203 /* CommonUI.framework */; platformFilter = ios; };
 		D57FDE5B6D33D593026307B3 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AC33FA1CBE648EA8E368396 /* RxSwift.framework */; platformFilter = ios; };
 		D760DBF6223F2F0A375DDD9E /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1A5FAB7ADFFA55459CCD3E /* Alamofire.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DD303501E5BF6C4AB355816A /* RxMoya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86CBE6ABD83F406A81DA73C8 /* RxMoya.framework */; platformFilter = ios; };
+		DDFD2E06F247B4694D9D5D54 /* TuistAssets+HomeDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A101AAA1A57D5264E9BBF89D /* TuistAssets+HomeDemoApp.swift */; };
 		DE26CDDF18BE558EA4CE9C6C /* HomeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BE20648817D15B977A8900 /* HomeAPI.swift */; };
 		E0D0A89C3DADDF1557E06596 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D96595CDA3180A94B700DF7 /* User.swift */; };
 		E2B614582E69571FDB60CA91 /* RxMoya.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 86CBE6ABD83F406A81DA73C8 /* RxMoya.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E4BA0C3F112DAF36AC00DAA4 /* HomeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BE20648817D15B977A8900 /* HomeAPI.swift */; };
 		E53ED442D64EA80FE8AB4D7C /* HomeViewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6798B3D951E21BDB22AB3252 /* HomeViewReactor.swift */; };
 		E9BDF530EAC8B507C6A2E91B /* RxBlocking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 24561330F07D521594459A6A /* RxBlocking.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		F58777796E3F19C07E84AE1F /* Bundle+HomeDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06225A691EAE6B53D3D8D88C /* Bundle+HomeDemoApp.swift */; };
+		ED16A1CA291356580096232A /* GithubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED16A1C9291356580096232A /* GithubAPI.swift */; };
+		ED16A1CB291356580096232A /* GithubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED16A1C9291356580096232A /* GithubAPI.swift */; };
+		ED16A1CE291357DF0096232A /* APIType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED16A1CD291357DF0096232A /* APIType.swift */; };
+		ED16A1CF291357DF0096232A /* APIType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED16A1CD291357DF0096232A /* APIType.swift */; };
+		ED16A1D1291358EE0096232A /* GitUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED16A1D0291358EE0096232A /* GitUser.swift */; };
+		ED16A1D2291358EE0096232A /* GitUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED16A1D0291358EE0096232A /* GitUser.swift */; };
+		ED16A1D429135ABE0096232A /* GitApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED16A1D329135ABE0096232A /* GitApiService.swift */; };
+		ED16A1D529135ABE0096232A /* GitApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED16A1D329135ABE0096232A /* GitApiService.swift */; };
+		ED16A1D829135AFB0096232A /* ApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED16A1D729135AFB0096232A /* ApiResponse.swift */; };
+		ED16A1D929135AFB0096232A /* ApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED16A1D729135AFB0096232A /* ApiResponse.swift */; };
+		ED16A1DB29135C050096232A /* NetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED16A1DA29135C050096232A /* NetworkProvider.swift */; };
+		ED16A1DC29135C050096232A /* NetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED16A1DA29135C050096232A /* NetworkProvider.swift */; };
+		ED16A1DE29135F780096232A /* APILogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED16A1DD29135F780096232A /* APILogger.swift */; };
+		ED16A1DF29135F780096232A /* APILogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED16A1DD29135F780096232A /* APILogger.swift */; };
+		F718A53C6E8924120570A172 /* TuistAssets+Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF83EC6A20B49726244D577 /* TuistAssets+Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -157,8 +171,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		016FDC511C6D703D44CFE3D6 /* HomeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "HomeTests-Info.plist"; sourceTree = "<group>"; };
 		038A45AFD430A8988F107203 /* CommonUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		06225A691EAE6B53D3D8D88C /* Bundle+HomeDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+HomeDemoApp.swift"; sourceTree = "<group>"; };
 		0D96595CDA3180A94B700DF7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		17AA2AA8ECCBFBE96DCDBEDC /* RxRelay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxRelay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C9AFD2FA9FF5C2577E71E03 /* CwlMachBadInstructionHandler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CwlMachBadInstructionHandler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -168,36 +182,43 @@
 		24561330F07D521594459A6A /* RxBlocking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxBlocking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		260EEB1B86B01DA6A81AB07A /* CwlPreconditionTesting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CwlPreconditionTesting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28BE20648817D15B977A8900 /* HomeAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAPI.swift; sourceTree = "<group>"; };
-		2926176AE0EBF649DE41AE5E /* Assets+Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Assets+Home.swift"; sourceTree = "<group>"; };
 		3E27707CF3AF39D07540B293 /* HomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		420FD2BF9D05BBEC40B1CDDE /* Asset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Asset.xcassets; sourceTree = "<group>"; };
 		4298645DB743A77813E88368 /* RxNimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxNimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42B7677109108C714F33048E /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		45853054D615EC22DCAE768B /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		468E8464BF81A55EFE6DD464 /* HomeDemoApp.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = HomeDemoApp.plist; sourceTree = "<group>"; };
-		4FDDACE0E27F6C40EC248B54 /* Assets+HomeDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Assets+HomeDemoApp.swift"; sourceTree = "<group>"; };
 		5B1A5FAB7ADFFA55459CCD3E /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61EC700930D1096A1F12C0D7 /* Home-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Home-Info.plist"; sourceTree = "<group>"; };
+		629E20C6891273A7CF91DABE /* HomeDemoApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "HomeDemoApp-Info.plist"; sourceTree = "<group>"; };
 		6798B3D951E21BDB22AB3252 /* HomeViewReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewReactor.swift; sourceTree = "<group>"; };
 		71FC9F6A7008B4E96E4221F8 /* HomeDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		729FA2B03B5F843DDBD257D2 /* RxCocoaRuntime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxCocoaRuntime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		739117303F5A869F74264E88 /* Home.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Home.plist; sourceTree = "<group>"; };
 		7AC33FA1CBE648EA8E368396 /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CAFEFB4CCEB4FBFFF16CA05 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		8481C42BF393A954EF52CA44 /* Bundle+Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Home.swift"; sourceTree = "<group>"; };
+		7FA691B25CAE8B0E1E65FD98 /* TuistBundle+Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+Home.swift"; sourceTree = "<group>"; };
 		86CBE6ABD83F406A81DA73C8 /* RxMoya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxMoya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A12ADDAFFEAE27230C256C7 /* HomeDemoAppTests.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = HomeDemoAppTests.plist; sourceTree = "<group>"; };
+		8AF83EC6A20B49726244D577 /* TuistAssets+Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+Home.swift"; sourceTree = "<group>"; };
 		9290645AFD421A6E8E0A3C77 /* Home.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Home.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9857DDFD57AE37470690AC80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A101AAA1A57D5264E9BBF89D /* TuistAssets+HomeDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+HomeDemoApp.swift"; sourceTree = "<group>"; };
 		B1A0234CC4AB05E3268BBB06 /* RxTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2A275D4BF28BB5F7806F384 /* CwlCatchExceptionSupport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CwlCatchExceptionSupport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9FB11E9C0BBE6CD5E87883B /* Then.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Then.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C980296AF91C6591FE6284E0 /* HomeDemoAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "HomeDemoAppTests-Info.plist"; sourceTree = "<group>"; };
 		CADBDBCE22FDE304B4127596 /* HomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTests.swift; sourceTree = "<group>"; };
 		CDF05FA7019805A4782C5B7B /* ReactorKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactorKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE85C80A6A59847953B90DD2 /* HomeAPIProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAPIProvider.swift; sourceTree = "<group>"; };
+		E11E3A27BC6B4A51074F7540 /* TuistBundle+HomeDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+HomeDemoApp.swift"; sourceTree = "<group>"; };
 		E45A37D9EB117BE8E26CCEAF /* Moya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Moya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC3F84F9CB9590F8FFD68572 /* HomeDemoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeDemoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED16A1C9291356580096232A /* GithubAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubAPI.swift; sourceTree = "<group>"; };
+		ED16A1CD291357DF0096232A /* APIType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIType.swift; sourceTree = "<group>"; };
+		ED16A1D0291358EE0096232A /* GitUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitUser.swift; sourceTree = "<group>"; };
+		ED16A1D329135ABE0096232A /* GitApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitApiService.swift; sourceTree = "<group>"; };
+		ED16A1D729135AFB0096232A /* ApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiResponse.swift; sourceTree = "<group>"; };
+		ED16A1DA29135C050096232A /* NetworkProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProvider.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		ED16A1DD29135F780096232A /* APILogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APILogger.swift; sourceTree = "<group>"; };
 		FC9881DBD6B95284DF628CBF /* CwlCatchException.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CwlCatchException.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FDE8EE31791B80429611F213 /* HomeTests.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = HomeTests.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -337,10 +358,10 @@
 		826AD2047568D60C79FD69F5 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				2926176AE0EBF649DE41AE5E /* Assets+Home.swift */,
-				4FDDACE0E27F6C40EC248B54 /* Assets+HomeDemoApp.swift */,
-				8481C42BF393A954EF52CA44 /* Bundle+Home.swift */,
-				06225A691EAE6B53D3D8D88C /* Bundle+HomeDemoApp.swift */,
+				8AF83EC6A20B49726244D577 /* TuistAssets+Home.swift */,
+				A101AAA1A57D5264E9BBF89D /* TuistAssets+HomeDemoApp.swift */,
+				7FA691B25CAE8B0E1E65FD98 /* TuistBundle+Home.swift */,
+				E11E3A27BC6B4A51074F7540 /* TuistBundle+HomeDemoApp.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -348,10 +369,9 @@
 		9DA1382A9039998FF59508ED /* API */ = {
 			isa = PBXGroup;
 			children = (
-				28BE20648817D15B977A8900 /* HomeAPI.swift */,
-				DE85C80A6A59847953B90DD2 /* HomeAPIProvider.swift */,
-				1D0E1AD6493354FDD47E304C /* ProviderProtocol.swift */,
-				0D96595CDA3180A94B700DF7 /* User.swift */,
+				ED16A1E0291362AE0096232A /* HomeAPI */,
+				ED16A1D629135AE90096232A /* Base */,
+				ED16A1CC291357D10096232A /* GitAPI */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -381,12 +401,44 @@
 		C7DAD5517A15CCB12559D52C /* InfoPlists */ = {
 			isa = PBXGroup;
 			children = (
-				739117303F5A869F74264E88 /* Home.plist */,
-				468E8464BF81A55EFE6DD464 /* HomeDemoApp.plist */,
-				8A12ADDAFFEAE27230C256C7 /* HomeDemoAppTests.plist */,
-				FDE8EE31791B80429611F213 /* HomeTests.plist */,
+				61EC700930D1096A1F12C0D7 /* Home-Info.plist */,
+				629E20C6891273A7CF91DABE /* HomeDemoApp-Info.plist */,
+				C980296AF91C6591FE6284E0 /* HomeDemoAppTests-Info.plist */,
+				016FDC511C6D703D44CFE3D6 /* HomeTests-Info.plist */,
 			);
 			path = InfoPlists;
+			sourceTree = "<group>";
+		};
+		ED16A1CC291357D10096232A /* GitAPI */ = {
+			isa = PBXGroup;
+			children = (
+				ED16A1C9291356580096232A /* GithubAPI.swift */,
+				ED16A1D0291358EE0096232A /* GitUser.swift */,
+				ED16A1D329135ABE0096232A /* GitApiService.swift */,
+			);
+			path = GitAPI;
+			sourceTree = "<group>";
+		};
+		ED16A1D629135AE90096232A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				ED16A1CD291357DF0096232A /* APIType.swift */,
+				ED16A1D729135AFB0096232A /* ApiResponse.swift */,
+				ED16A1DA29135C050096232A /* NetworkProvider.swift */,
+				ED16A1DD29135F780096232A /* APILogger.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		ED16A1E0291362AE0096232A /* HomeAPI */ = {
+			isa = PBXGroup;
+			children = (
+				28BE20648817D15B977A8900 /* HomeAPI.swift */,
+				DE85C80A6A59847953B90DD2 /* HomeAPIProvider.swift */,
+				1D0E1AD6493354FDD47E304C /* ProviderProtocol.swift */,
+				0D96595CDA3180A94B700DF7 /* User.swift */,
+			);
+			path = HomeAPI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -493,10 +545,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AF31213DA71B06E9B09EA3F0 /* HomeTests */,
 				27329F91906B66B8A2D755D1 /* HomeDemoApp */,
-				52E844066D197E3B81FA748F /* Home */,
 				D46DE6B0B5F2A6D274B7D0CF /* HomeDemoAppTests */,
+				52E844066D197E3B81FA748F /* Home */,
+				AF31213DA71B06E9B09EA3F0 /* HomeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -539,15 +591,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4809699B5250B5C69D9AEE8C /* Assets+Home.swift in Sources */,
-				3CF24369ED0D7818CE43B738 /* Bundle+Home.swift in Sources */,
+				F718A53C6E8924120570A172 /* TuistAssets+Home.swift in Sources */,
+				ED16A1CB291356580096232A /* GithubAPI.swift in Sources */,
+				ED16A1D529135ABE0096232A /* GitApiService.swift in Sources */,
+				ED16A1D929135AFB0096232A /* ApiResponse.swift in Sources */,
+				ED16A1DF29135F780096232A /* APILogger.swift in Sources */,
+				910EB185F843011C7F9A9B5F /* TuistBundle+Home.swift in Sources */,
+				ED16A1D2291358EE0096232A /* GitUser.swift in Sources */,
 				E4BA0C3F112DAF36AC00DAA4 /* HomeAPI.swift in Sources */,
+				ED16A1CF291357DF0096232A /* APIType.swift in Sources */,
 				8B73B354C47AFCBCE4E7A180 /* HomeAPIProvider.swift in Sources */,
 				35445947DD0F492C87C43413 /* ProviderProtocol.swift in Sources */,
 				CE37FCEB8550E970E2019A69 /* User.swift in Sources */,
 				AC1C088DE20E00BF54D1081E /* AppDelegate.swift in Sources */,
 				9E5E2B3F30DD9698E7DA138C /* HomeViewController.swift in Sources */,
 				19244A5A2D0FE893C8DED1CC /* HomeViewReactor.swift in Sources */,
+				ED16A1DC29135C050096232A /* NetworkProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -571,15 +630,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEA111126170BDAFF89576D1 /* Assets+HomeDemoApp.swift in Sources */,
-				F58777796E3F19C07E84AE1F /* Bundle+HomeDemoApp.swift in Sources */,
+				DDFD2E06F247B4694D9D5D54 /* TuistAssets+HomeDemoApp.swift in Sources */,
+				ED16A1CA291356580096232A /* GithubAPI.swift in Sources */,
+				ED16A1D429135ABE0096232A /* GitApiService.swift in Sources */,
+				ED16A1D829135AFB0096232A /* ApiResponse.swift in Sources */,
+				ED16A1DE29135F780096232A /* APILogger.swift in Sources */,
+				20DD5A013CCF7FE352DD2F0C /* TuistBundle+HomeDemoApp.swift in Sources */,
+				ED16A1D1291358EE0096232A /* GitUser.swift in Sources */,
 				DE26CDDF18BE558EA4CE9C6C /* HomeAPI.swift in Sources */,
+				ED16A1CE291357DF0096232A /* APIType.swift in Sources */,
 				8D47C4D034E929BFC0C5E2D4 /* HomeAPIProvider.swift in Sources */,
 				5AC0F2E5ECD466C6103594C1 /* ProviderProtocol.swift in Sources */,
 				E0D0A89C3DADDF1557E06596 /* User.swift in Sources */,
 				A3E300F5BBE00A04896CD9CB /* AppDelegate.swift in Sources */,
 				33C7D7E0FD90E0B5B90DE5B4 /* HomeViewController.swift in Sources */,
 				E53ED442D64EA80FE8AB4D7C /* HomeViewReactor.swift in Sources */,
+				ED16A1DB29135C050096232A /* NetworkProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -613,7 +679,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Derived/InfoPlists/HomeDemoApp.plist;
+				INFOPLIST_FILE = "Derived/InfoPlists/HomeDemoApp-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -625,7 +691,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.6.1;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -639,7 +705,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Derived/InfoPlists/Home.plist;
+				INFOPLIST_FILE = "Derived/InfoPlists/Home-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -655,7 +721,7 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.6.1;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -667,7 +733,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = Derived/InfoPlists/HomeDemoAppTests.plist;
+				INFOPLIST_FILE = "Derived/InfoPlists/HomeDemoAppTests-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -677,17 +743,13 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/Dependencies/SwiftPackageManager/.build/checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchExceptionSupport.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = (
-					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/Dependencies/SwiftPackageManager/.build/checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchExceptionSupport.modulemap",
-				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../Tuist/Dependencies/SwiftPackageManager/.build/checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchExceptionSupport.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = team.io.Tests;
 				PRODUCT_NAME = HomeDemoAppTests;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.6.1;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HomeDemoApp.app/HomeDemoApp";
 				TEST_TARGET_NAME = HomeDemoApp;
@@ -729,6 +791,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -757,7 +820,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = Derived/InfoPlists/HomeDemoAppTests.plist;
+				INFOPLIST_FILE = "Derived/InfoPlists/HomeDemoAppTests-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -767,18 +830,14 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/Dependencies/SwiftPackageManager/.build/checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchExceptionSupport.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = (
-					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/Dependencies/SwiftPackageManager/.build/checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchExceptionSupport.modulemap",
-				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../Tuist/Dependencies/SwiftPackageManager/.build/checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchExceptionSupport.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = team.io.Tests;
 				PRODUCT_NAME = HomeDemoAppTests;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.6.1;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HomeDemoApp.app/HomeDemoApp";
 				TEST_TARGET_NAME = HomeDemoApp;
@@ -791,7 +850,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Derived/InfoPlists/HomeDemoApp.plist;
+				INFOPLIST_FILE = "Derived/InfoPlists/HomeDemoApp-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -804,7 +863,7 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.6.1;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -818,7 +877,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Derived/InfoPlists/Home.plist;
+				INFOPLIST_FILE = "Derived/InfoPlists/Home-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -833,7 +892,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.6.1;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -844,7 +903,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = Derived/InfoPlists/HomeTests.plist;
+				INFOPLIST_FILE = "Derived/InfoPlists/HomeTests-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -854,17 +913,13 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/Dependencies/SwiftPackageManager/.build/checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchExceptionSupport.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = (
-					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/Dependencies/SwiftPackageManager/.build/checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchExceptionSupport.modulemap",
-				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../Tuist/Dependencies/SwiftPackageManager/.build/checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchExceptionSupport.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = team.io.HomeTests;
 				PRODUCT_NAME = HomeTests;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.6.1;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -873,7 +928,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = Derived/InfoPlists/HomeTests.plist;
+				INFOPLIST_FILE = "Derived/InfoPlists/HomeTests-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -883,18 +938,14 @@
 					"$(inherited)",
 					"-fmodule-map-file=$(SRCROOT)/../../Tuist/Dependencies/SwiftPackageManager/.build/checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchExceptionSupport.modulemap",
 				);
-				OTHER_SWIFT_FLAGS = (
-					"$(inherited)",
-					"-Xcc",
-					"-fmodule-map-file=$(SRCROOT)/../../Tuist/Dependencies/SwiftPackageManager/.build/checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchExceptionSupport.modulemap",
-				);
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/../../Tuist/Dependencies/SwiftPackageManager/.build/checkouts/CwlCatchException/Sources/CwlCatchExceptionSupport/include/CwlCatchExceptionSupport.modulemap";
 				PRODUCT_BUNDLE_IDENTIFIER = team.io.HomeTests;
 				PRODUCT_NAME = HomeTests;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.6.1;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -934,6 +985,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00BC062E0CFC124877EAC561 /* TuistBundle+MyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47DD65D23BB4B2040CF87B5 /* TuistBundle+MyPage.swift */; };
+		060867A7C036020D7A025FE9 /* TuistBundle+MyPageDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AECB00FF05F307A73B0314 /* TuistBundle+MyPageDemoApp.swift */; };
 		08E5922290C4340C314980FC /* CommonUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CD4C9D2130E70338E16F60DA /* CommonUI.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0B70B9ED76B78B5D06256184 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1858C44573A8E09999B6B14E /* RxSwift.framework */; platformFilter = ios; };
 		0D2EED7252C79066BB23A1D1 /* AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362A6F4C9629B2716D7A8897 /* AppTests.swift */; };
@@ -18,6 +20,7 @@
 		16F7C6027D356F5203AF351E /* SnapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 952C77C0D77B9A5A1F4AC653 /* SnapKit.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		17EFF17C2C8DD0A6E525503C /* RxNimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA572C2062317CC59BD76B7 /* RxNimble.framework */; platformFilter = ios; };
 		1CEE0E3E7F9A05955170E9A0 /* CwlCatchException.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8DEDB88E8A74B0C779BA6C /* CwlCatchException.framework */; platformFilter = ios; };
+		1E48C5CF52677181B8C5F002 /* TuistAssets+MyPageDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE4C6118A0B4C7ECA477ED2 /* TuistAssets+MyPageDemoApp.swift */; };
 		2E516FB18C691548D2200D9A /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B896C849D3C9B09A4DA8DA3 /* MyPageViewController.swift */; };
 		3DDC4ED2F7E3DB07007E1FC5 /* CwlMachBadInstructionHandler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1A518DDFE68DD8C351200E3 /* CwlMachBadInstructionHandler.framework */; platformFilter = ios; };
 		4389DE362BC639B023E92A4C /* CwlPosixPreconditionTesting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B297D3C9D2A0F61FDB8E796 /* CwlPosixPreconditionTesting.framework */; platformFilter = ios; };
@@ -28,7 +31,6 @@
 		55E32FED7D302EC782AE9BF0 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A068173D160B85364C27519 /* RxBlocking.framework */; platformFilter = ios; };
 		5F2FAD0D26C914E40D85275F /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A6FAE1C68B42E6A363E304 /* Nimble.framework */; platformFilter = ios; };
 		65FC884166B6B8F82BC4F079 /* CwlPosixPreconditionTesting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B297D3C9D2A0F61FDB8E796 /* CwlPosixPreconditionTesting.framework */; platformFilter = ios; };
-		695ECDD47D32DA119B3562FD /* Assets+MyPageDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0A57BDE6A0CAFBB7306656 /* Assets+MyPageDemoApp.swift */; };
 		6D60DAD6944F782B976BBA02 /* CwlCatchExceptionSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A3EB79E8FAA29A1F8182AC8 /* CwlCatchExceptionSupport.framework */; platformFilter = ios; };
 		6FAA00E57555B0E697CC0760 /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC905568A99FA074A2176B2A /* RxTest.framework */; platformFilter = ios; };
 		789C882F71896B32F1FC6FAE /* Asset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA0F18C919141AC5B3C7B89B /* Asset.xcassets */; };
@@ -40,8 +42,8 @@
 		8A4DCC97B594275446AB1165 /* RxBlocking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3A068173D160B85364C27519 /* RxBlocking.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8D119FBF9665B444A89F57A0 /* RxTest.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CC905568A99FA074A2176B2A /* RxTest.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8FC8292A36D1FA781F74D258 /* ReactorKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5451FB8FE3F0A67FF9A5BFD8 /* ReactorKit.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		94C2FFE7990FE7853D932E5E /* TuistAssets+MyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9805E6A96543234DDACC69D9 /* TuistAssets+MyPage.swift */; };
 		96337C1A3C49904C88A5ACF3 /* CwlPreconditionTesting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8A85EB8443A7BB80067EA0 /* CwlPreconditionTesting.framework */; platformFilter = ios; };
-		A2B4386E44E3F0230E25C263 /* Bundle+MyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EAA15306FB979E92C0AFE7 /* Bundle+MyPage.swift */; };
 		A56BB697C6D6A24981CB13FA /* Asset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA0F18C919141AC5B3C7B89B /* Asset.xcassets */; };
 		B156F38F6BC80E9BA358CC25 /* CwlPreconditionTesting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8A85EB8443A7BB80067EA0 /* CwlPreconditionTesting.framework */; platformFilter = ios; };
 		B18F9C041D26A9A2D5249F19 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A6FAE1C68B42E6A363E304 /* Nimble.framework */; platformFilter = ios; };
@@ -49,10 +51,8 @@
 		B62099510F3B1CDFB4F01E1C /* MyPage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 593BC506F70D9100B69F8D7A /* MyPage.framework */; platformFilter = ios; };
 		C51A9421C65525CDCA88436C /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 267C32F92D5AD5226F75E39F /* RxCocoa.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C84E1067099CEB0415B956AC /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 952C77C0D77B9A5A1F4AC653 /* SnapKit.framework */; platformFilter = ios; };
-		C97E253099D2D9C3E37CF952 /* Bundle+MyPageDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D1E35D4A2A6A2125E01815 /* Bundle+MyPageDemoApp.swift */; };
 		CE62FD63351F77276ECA6751 /* CommonUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4C9D2130E70338E16F60DA /* CommonUI.framework */; platformFilter = ios; };
 		DB39240D15F8903978C159FB /* RxNimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA572C2062317CC59BD76B7 /* RxNimble.framework */; platformFilter = ios; };
-		DBFBBF43A2C176FC02A81063 /* Assets+MyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CD9BED747E96AB233E0605 /* Assets+MyPage.swift */; };
 		DE5931B52954ABDC92176E76 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1858C44573A8E09999B6B14E /* RxSwift.framework */; platformFilter = ios; };
 		F0396CA3ECD8148316C08113 /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1858C44573A8E09999B6B14E /* RxSwift.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F5F4E95867B14FE875863B92 /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC905568A99FA074A2176B2A /* RxTest.framework */; platformFilter = ios; };
@@ -140,7 +140,6 @@
 
 /* Begin PBXFileReference section */
 		09B04B670A4A02A8BA413199 /* RxCocoaRuntime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxCocoaRuntime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A8DA324BA030D572B73A847 /* MyPage.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = MyPage.plist; sourceTree = "<group>"; };
 		10B7F839753BC6A2E0BF2F97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17412FF769197BE5AA09DBFB /* MyPageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyPageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1858C44573A8E09999B6B14E /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -148,29 +147,30 @@
 		267C32F92D5AD5226F75E39F /* RxCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B297D3C9D2A0F61FDB8E796 /* CwlPosixPreconditionTesting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CwlPosixPreconditionTesting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B896C849D3C9B09A4DA8DA3 /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
-		2C0A57BDE6A0CAFBB7306656 /* Assets+MyPageDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Assets+MyPageDemoApp.swift"; sourceTree = "<group>"; };
-		30EAA15306FB979E92C0AFE7 /* Bundle+MyPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+MyPage.swift"; sourceTree = "<group>"; };
+		2CE4C6118A0B4C7ECA477ED2 /* TuistAssets+MyPageDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+MyPageDemoApp.swift"; sourceTree = "<group>"; };
 		362A6F4C9629B2716D7A8897 /* AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTests.swift; sourceTree = "<group>"; };
 		3A068173D160B85364C27519 /* RxBlocking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxBlocking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BE776627C9A4E3E6049B4F1 /* MyPageDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPageDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5451FB8FE3F0A67FF9A5BFD8 /* ReactorKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactorKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		593BC506F70D9100B69F8D7A /* MyPage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyPage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E8DEDB88E8A74B0C779BA6C /* CwlCatchException.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CwlCatchException.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9202B22F25885B5A86C2BFE8 /* MyPageDemoApp.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = MyPageDemoApp.plist; sourceTree = "<group>"; };
+		8F5D9CC6F23484D27BCFE5F0 /* MyPageDemoApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "MyPageDemoApp-Info.plist"; sourceTree = "<group>"; };
+		9168A8789CFD60F91F2612BD /* MyPageTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "MyPageTests-Info.plist"; sourceTree = "<group>"; };
 		952C77C0D77B9A5A1F4AC653 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9805E6A96543234DDACC69D9 /* TuistAssets+MyPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+MyPage.swift"; sourceTree = "<group>"; };
 		AD8A85EB8443A7BB80067EA0 /* CwlPreconditionTesting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CwlPreconditionTesting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1A518DDFE68DD8C351200E3 /* CwlMachBadInstructionHandler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CwlMachBadInstructionHandler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B628553BBEC8677F9486D2F2 /* MyPageTests.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = MyPageTests.plist; sourceTree = "<group>"; };
-		B9D1E35D4A2A6A2125E01815 /* Bundle+MyPageDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+MyPageDemoApp.swift"; sourceTree = "<group>"; };
+		B2C884364C97FF382342A924 /* MyPageDemoAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "MyPageDemoAppTests-Info.plist"; sourceTree = "<group>"; };
 		BEA572C2062317CC59BD76B7 /* RxNimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxNimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A6FAE1C68B42E6A363E304 /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0CD9BED747E96AB233E0605 /* Assets+MyPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Assets+MyPage.swift"; sourceTree = "<group>"; };
 		C1A999529C3BCED58ED0D1AC /* RxRelay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxRelay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C47DD65D23BB4B2040CF87B5 /* TuistBundle+MyPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+MyPage.swift"; sourceTree = "<group>"; };
 		CA0F18C919141AC5B3C7B89B /* Asset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Asset.xcassets; sourceTree = "<group>"; };
-		CA50F6C5EE0CB8E0154BA420 /* MyPageDemoAppTests.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = MyPageDemoAppTests.plist; sourceTree = "<group>"; };
 		CC905568A99FA074A2176B2A /* RxTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD4C9D2130E70338E16F60DA /* CommonUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2250E7E4991D615622146F7 /* Then.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Then.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4BD1A6433572FAE92C215F4 /* MyPage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "MyPage-Info.plist"; sourceTree = "<group>"; };
+		F1AECB00FF05F307A73B0314 /* TuistBundle+MyPageDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+MyPageDemoApp.swift"; sourceTree = "<group>"; };
 		F665A1F890B7FFA928689E97 /* MyPageDemoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyPageDemoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -318,10 +318,10 @@
 		9A811DC52104B55EC9FF0A79 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				C0CD9BED747E96AB233E0605 /* Assets+MyPage.swift */,
-				2C0A57BDE6A0CAFBB7306656 /* Assets+MyPageDemoApp.swift */,
-				30EAA15306FB979E92C0AFE7 /* Bundle+MyPage.swift */,
-				B9D1E35D4A2A6A2125E01815 /* Bundle+MyPageDemoApp.swift */,
+				9805E6A96543234DDACC69D9 /* TuistAssets+MyPage.swift */,
+				2CE4C6118A0B4C7ECA477ED2 /* TuistAssets+MyPageDemoApp.swift */,
+				C47DD65D23BB4B2040CF87B5 /* TuistBundle+MyPage.swift */,
+				F1AECB00FF05F307A73B0314 /* TuistBundle+MyPageDemoApp.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -329,10 +329,10 @@
 		C31ED8662055811AAAF5226D /* InfoPlists */ = {
 			isa = PBXGroup;
 			children = (
-				0A8DA324BA030D572B73A847 /* MyPage.plist */,
-				9202B22F25885B5A86C2BFE8 /* MyPageDemoApp.plist */,
-				CA50F6C5EE0CB8E0154BA420 /* MyPageDemoAppTests.plist */,
-				B628553BBEC8677F9486D2F2 /* MyPageTests.plist */,
+				E4BD1A6433572FAE92C215F4 /* MyPage-Info.plist */,
+				8F5D9CC6F23484D27BCFE5F0 /* MyPageDemoApp-Info.plist */,
+				B2C884364C97FF382342A924 /* MyPageDemoAppTests-Info.plist */,
+				9168A8789CFD60F91F2612BD /* MyPageTests-Info.plist */,
 			);
 			path = InfoPlists;
 			sourceTree = "<group>";
@@ -449,10 +449,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				31B2BFCA7BCA0EF8AE63C984 /* MyPageTests */,
 				4155C6F8066044A25C32DD93 /* MyPageDemoApp */,
 				A5635A622DF6B3EBEBA79591 /* MyPageDemoAppTests */,
 				6DD2D9BE112D41AA7050E221 /* MyPage */,
+				31B2BFCA7BCA0EF8AE63C984 /* MyPageTests */,
 			);
 		};
 /* End PBXProject section */
@@ -495,8 +495,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				695ECDD47D32DA119B3562FD /* Assets+MyPageDemoApp.swift in Sources */,
-				C97E253099D2D9C3E37CF952 /* Bundle+MyPageDemoApp.swift in Sources */,
+				1E48C5CF52677181B8C5F002 /* TuistAssets+MyPageDemoApp.swift in Sources */,
+				060867A7C036020D7A025FE9 /* TuistBundle+MyPageDemoApp.swift in Sources */,
 				11AD2E2890448AB6C110DF7E /* AppDelegate.swift in Sources */,
 				2E516FB18C691548D2200D9A /* MyPageViewController.swift in Sources */,
 			);
@@ -514,8 +514,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBFBBF43A2C176FC02A81063 /* Assets+MyPage.swift in Sources */,
-				A2B4386E44E3F0230E25C263 /* Bundle+MyPage.swift in Sources */,
+				94C2FFE7990FE7853D932E5E /* TuistAssets+MyPage.swift in Sources */,
+				00BC062E0CFC124877EAC561 /* TuistBundle+MyPage.swift in Sources */,
 				FDF2CF1890F36EEE391AA8E5 /* AppDelegate.swift in Sources */,
 				7AAB5BC297268248BCE6D60C /* MyPageViewController.swift in Sources */,
 			);
@@ -562,7 +562,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Derived/InfoPlists/MyPage.plist;
+				INFOPLIST_FILE = "Derived/InfoPlists/MyPage-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -578,7 +578,7 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.6.1;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -620,6 +620,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -646,7 +647,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Derived/InfoPlists/MyPage.plist;
+				INFOPLIST_FILE = "Derived/InfoPlists/MyPage-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -661,7 +662,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.6.1;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -672,7 +673,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = Derived/InfoPlists/MyPageTests.plist;
+				INFOPLIST_FILE = "Derived/InfoPlists/MyPageTests-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -692,7 +693,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.6.1;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -703,7 +704,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Derived/InfoPlists/MyPageDemoApp.plist;
+				INFOPLIST_FILE = "Derived/InfoPlists/MyPageDemoApp-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -716,7 +717,7 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.6.1;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -756,6 +757,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -784,7 +786,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = Derived/InfoPlists/MyPageDemoAppTests.plist;
+				INFOPLIST_FILE = "Derived/InfoPlists/MyPageDemoAppTests-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -805,7 +807,7 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.6.1;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyPageDemoApp.app/MyPageDemoApp";
 				TEST_TARGET_NAME = MyPageDemoApp;
@@ -818,7 +820,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Derived/InfoPlists/MyPageDemoApp.plist;
+				INFOPLIST_FILE = "Derived/InfoPlists/MyPageDemoApp-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -830,7 +832,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.6.1;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -840,7 +842,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = Derived/InfoPlists/MyPageDemoAppTests.plist;
+				INFOPLIST_FILE = "Derived/InfoPlists/MyPageDemoAppTests-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -860,7 +862,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.6.1;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyPageDemoApp.app/MyPageDemoApp";
 				TEST_TARGET_NAME = MyPageDemoApp;
@@ -871,7 +873,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = Derived/InfoPlists/MyPageTests.plist;
+				INFOPLIST_FILE = "Derived/InfoPlists/MyPageTests-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -892,7 +894,7 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.6.1;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;

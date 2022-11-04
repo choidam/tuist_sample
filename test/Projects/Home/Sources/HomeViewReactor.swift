@@ -14,8 +14,8 @@ final class HomeViewReactor: Reactor {
     enum Action {
         case plus
         case minus
-        
         case getUser
+        case getGitUserInfo
     }
     
     enum Mutation {
@@ -23,21 +23,28 @@ final class HomeViewReactor: Reactor {
         case minus
         
         case getUser(Single<User>)
+        case getGitUserInfo(ApiResult<GitUser, ApiFailResponse>)
     }
     
     struct State {
         var count: Int = 0
         
         var user: User?
+        var gitUser: GitUser?
     }
     
     var initialState: State
     
     private let homeProvider: HomeAPIProvider!
+    private let gitApiService: GitApiServiceType
     
-    init(homeProvider: HomeAPIProvider) {
+    init(homeProvider: HomeAPIProvider, gitApiService: GitApiServiceType) {
         self.initialState = State()
+        
         self.homeProvider = homeProvider
+        self.gitApiService = gitApiService
+        
+        action.onNext(.getGitUserInfo)
     }
     
     func mutate(action: Action) -> Observable<Mutation> {
@@ -48,6 +55,8 @@ final class HomeViewReactor: Reactor {
             return .just(.minus)
         case .getUser:
             return .just(.getUser(homeProvider.fetchUser()))
+        case .getGitUserInfo:
+            return gitApiService.reqUserInfo().map(Mutation.getGitUserInfo)
         }
     }
     
@@ -66,6 +75,11 @@ final class HomeViewReactor: Reactor {
             }, onFailure: { _ in
                 print("response fail")
             })
+        case .getGitUserInfo(let result):
+            print("✅✅✅✅✅ result: \(result)")
+            if let success = result.success {
+                state.gitUser = success
+            }
         }
         
         return state
